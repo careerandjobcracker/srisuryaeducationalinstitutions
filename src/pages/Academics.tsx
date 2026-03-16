@@ -52,6 +52,20 @@ const programs = [
     exams: ["M.Sc", "Research", "Teaching", "IT Industry", "Government Jobs"],
     icon: "🔭",
   },
+  {
+    title: "NEET – National Eligibility cum Entrance Test",
+    stream: "Competitive Exam Coaching",
+    description: "Our dedicated NEET coaching program provides intensive preparation in Biology, Physics, and Chemistry with experienced faculty, daily practice sessions, comprehensive study material, and regular full-length mock tests to help students secure top ranks and gain admission into prestigious medical colleges.",
+    exams: ["MBBS", "BDS", "BAMS", "BHMS", "Veterinary Sciences"],
+    icon: "🩺",
+  },
+  {
+    title: "JEE – Joint Entrance Examination",
+    stream: "Competitive Exam Coaching",
+    description: "Our JEE coaching program offers rigorous training in Mathematics, Physics, and Chemistry with a focus on advanced problem-solving, concept clarity, and exam strategies. Students benefit from expert faculty, topic-wise tests, and personalized mentoring to crack JEE Main & Advanced.",
+    exams: ["IITs", "NITs", "IIITs", "CFTIs", "State Engineering Colleges"],
+    icon: "⚙️",
+  },
 ];
 
 const Academics = () => (

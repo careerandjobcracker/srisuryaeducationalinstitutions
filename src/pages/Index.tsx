@@ -35,6 +35,8 @@ const courses = [
   { title: "BiPC", desc: "Biology, Physics & Chemistry – Foundation for Medical & Life Sciences", icon: "🧬" },
   { title: "CEC", desc: "Civics, Economics & Commerce – Path to Law, Business & Administration", icon: "📊" },
   { title: "MEC", desc: "Mathematics, Economics & Commerce – Bridge to Finance & Management", icon: "💼" },
+  { title: "NEET", desc: "Dedicated coaching for National Eligibility cum Entrance Test with expert Biology, Physics & Chemistry faculty and regular mock tests", icon: "🩺" },
+  { title: "JEE", desc: "Intensive preparation for Joint Entrance Examination with advanced problem-solving, concept-building sessions and top-rank strategies", icon: "⚙️" },
 ];
 
 const testimonials = [
