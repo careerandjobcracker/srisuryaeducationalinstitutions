@@ -6,6 +6,7 @@ interface Slide {
   image: string;
   title: string;
   subtitle: string;
+  centerImage?: boolean;
 }
 
 const ImageSlider = ({ slides }: { slides: Slide[] }) => {
@@ -33,7 +34,8 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
           <img
             src={slides[current].image}
             alt={slides[current].title}
-            className="w-full h-full object-cover"
+            className={`w-full h-full object-cover ${slides[current].centerImage ? 'object-center' : ''}`}
+            style={slides[current].centerImage ? { objectPosition: 'center center' } : undefined}
           />
           <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/50 to-transparent" />
           <div className="absolute inset-0 flex items-center">
