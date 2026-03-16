@@ -18,7 +18,7 @@ const heroSlides = [
 ];
 
 const campusVideos = [
-  { id: "dQw4w9WgXcQ", title: "Campus Tour - Sri Surya Educational Institutions" },
+  { id: "qHXVrlLsUho", title: "Campus Tour - Sri Surya Educational Institutions" },
   { id: "dQw4w9WgXcQ", title: "Annual Day Celebrations 2025" },
   { id: "dQw4w9WgXcQ", title: "Laboratory & Academic Facilities" },
 ];
