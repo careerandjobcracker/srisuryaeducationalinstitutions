@@ -32,46 +32,79 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
           className="absolute inset-0"
         >
           {slides[current].centerImage ? (
-            <div className="w-full h-full flex items-center justify-center bg-white">
+            <div className="w-full h-full flex bg-white">
+              {/* Left side - Text content */}
+              <div className="absolute inset-0 flex items-center z-10">
+                <div className="container">
+                  <motion.div
+                    initial={{ y: 30, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 0.2, duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
+                    className="max-w-md space-y-6"
+                  >
+                    <h1 className="text-4xl md:text-5xl font-display font-bold text-primary leading-tight">
+                      {slides[current].title}
+                    </h1>
+                    <p className="text-lg md:text-xl text-muted-foreground">
+                      {slides[current].subtitle}
+                    </p>
+                    <div className="flex gap-4">
+                      <a href="/contact" className="px-8 py-3 bg-primary text-primary-foreground rounded-md font-semibold hover:opacity-90 transition-opacity">
+                        Apply Now
+                      </a>
+                      <a href="/about" className="px-8 py-3 border border-primary/30 text-primary rounded-md font-semibold hover:bg-primary/10 transition-colors">
+                        Learn More
+                      </a>
+                    </div>
+                  </motion.div>
+                </div>
+              </div>
+              {/* Right side - Logo image */}
+              <div className="absolute right-0 top-0 w-1/2 h-full flex items-center justify-center">
+                <img
+                  src={slides[current].image}
+                  alt={slides[current].title}
+                  className="max-w-[80%] max-h-[60%] object-contain"
+                />
+              </div>
+            </div>
+          ) : (
+            <>
               <img
                 src={slides[current].image}
                 alt={slides[current].title}
-                className="max-w-full max-h-[50vh] object-contain"
+                className="w-full h-full object-cover"
               />
-            </div>
-          ) : (
-            <img
-              src={slides[current].image}
-              alt={slides[current].title}
-              className="w-full h-full object-cover"
-            />
+              <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/50 to-transparent" />
+            </>
           )}
-          <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/50 to-transparent" />
-          <div className="absolute inset-0 flex items-center">
-            <div className="container">
-              <motion.div
-                initial={{ y: 30, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 0.2, duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
-                className="max-w-2xl space-y-6"
-              >
-                <h1 className="text-4xl md:text-6xl font-display font-bold text-primary-foreground leading-tight">
-                  {slides[current].title}
-                </h1>
-                <p className="text-lg md:text-xl text-primary-foreground/80">
-                  {slides[current].subtitle}
-                </p>
-                <div className="flex gap-4">
-                  <a href="/contact" className="px-8 py-3 bg-gold text-accent-foreground rounded-md font-semibold hover:opacity-90 transition-opacity">
-                    Apply Now
-                  </a>
-                  <a href="/about" className="px-8 py-3 border border-primary-foreground/30 text-primary-foreground rounded-md font-semibold hover:bg-primary-foreground/10 transition-colors">
-                    Learn More
-                  </a>
-                </div>
-              </motion.div>
+          {!slides[current].centerImage && (
+            <div className="absolute inset-0 flex items-center">
+              <div className="container">
+                <motion.div
+                  initial={{ y: 30, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{ delay: 0.2, duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
+                  className="max-w-2xl space-y-6"
+                >
+                  <h1 className="text-4xl md:text-6xl font-display font-bold text-primary-foreground leading-tight">
+                    {slides[current].title}
+                  </h1>
+                  <p className="text-lg md:text-xl text-primary-foreground/80">
+                    {slides[current].subtitle}
+                  </p>
+                  <div className="flex gap-4">
+                    <a href="/contact" className="px-8 py-3 bg-gold text-accent-foreground rounded-md font-semibold hover:opacity-90 transition-opacity">
+                      Apply Now
+                    </a>
+                    <a href="/about" className="px-8 py-3 border border-primary-foreground/30 text-primary-foreground rounded-md font-semibold hover:bg-primary-foreground/10 transition-colors">
+                      Learn More
+                    </a>
+                  </div>
+                </motion.div>
+              </div>
             </div>
-          </div>
+          )}
         </motion.div>
       </AnimatePresence>
 
