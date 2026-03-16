@@ -18,7 +18,7 @@ const navItems = [
 
 const socialLinks = [
   { icon: Youtube, url: "https://www.youtube.com/@SriSuryaJuniorandDegreeCollege", label: "YouTube" },
-  { icon: Instagram, url: "https://www.instagram.com/srisuryaeducationalinstitutions/", label: "Instagram" },
+  { icon: Instagram, url: "https://www.instagram.com/srisuryajuniorcollegenarasapur/", label: "Instagram" },
   { icon: Facebook, url: "https://www.facebook.com/srisuryaeducationalinstitutions", label: "Facebook" },
   { icon: Twitter, url: "https://twitter.com/SriSuryaEdu", label: "Twitter" },
 ];
