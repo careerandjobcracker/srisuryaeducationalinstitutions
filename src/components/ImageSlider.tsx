@@ -6,6 +6,7 @@ interface Slide {
   image: string;
   title: string;
   subtitle: string;
+  centerImage?: boolean;
 }
 
 const ImageSlider = ({ slides }: { slides: Slide[] }) => {
