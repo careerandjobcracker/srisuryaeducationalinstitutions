@@ -31,12 +31,21 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
           transition={{ duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
           className="absolute inset-0"
         >
-          <img
-            src={slides[current].image}
-            alt={slides[current].title}
-            className={`w-full h-full object-cover ${slides[current].centerImage ? 'object-center' : ''}`}
-            style={slides[current].centerImage ? { objectPosition: 'center center' } : undefined}
-          />
+          {slides[current].centerImage ? (
+            <div className="w-full h-full flex items-center justify-center bg-white">
+              <img
+                src={slides[current].image}
+                alt={slides[current].title}
+                className="max-w-full max-h-[50vh] object-contain"
+              />
+            </div>
+          ) : (
+            <img
+              src={slides[current].image}
+              alt={slides[current].title}
+              className="w-full h-full object-cover"
+            />
+          )}
           <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/50 to-transparent" />
           <div className="absolute inset-0 flex items-center">
             <div className="container">
