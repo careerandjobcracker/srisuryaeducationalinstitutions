@@ -3,6 +3,7 @@ import SectionHeading from "@/components/SectionHeading";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import heroCampus from "@/assets/hero-campus.jpg";
+import msdLakshmiNarayana from "@/assets/faculty/msd-lakshmi-narayana.jpg";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -15,6 +16,8 @@ interface FacultyMember {
   experience: string;
   subject: string;
   category: string;
+  photo?: string;
+  bio?: string;
 }
 
 const facultyData: FacultyMember[] = [
@@ -25,6 +28,7 @@ const facultyData: FacultyMember[] = [
   { name: "Sri P. Reddy", category: "MPC", subject: "Physics", qualification: "M.Sc., M.Phil.", experience: "14 Years" },
   { name: "Smt. S. Lakshmi", category: "MPC", subject: "Chemistry", qualification: "M.Sc., B.Ed.", experience: "12 Years" },
   { name: "Sri K. Krishna Murthy", category: "MPC", subject: "Chemistry", qualification: "M.Sc., Ph.D.", experience: "20 Years" },
+  { name: "MSD Lakshmi Narayana", category: "MPC", subject: "Chemistry", qualification: "M.Sc.", experience: "19 Years", photo: msdLakshmiNarayana, bio: "KSD Lakshmi Narayana, our highly experienced Chemistry faculty, brings 19 years of dedicated teaching expertise in JEE and EAPCET coaching. Known for his in-depth subject knowledge and result-oriented approach, he has guided countless students toward top ranks in competitive exams." },
   // BiPC
   { name: "Dr. R. Prasad", category: "BiPC", subject: "Botany", qualification: "M.Sc., Ph.D.", experience: "17 Years" },
   { name: "Smt. V. Padmavathi", category: "BiPC", subject: "Botany", qualification: "M.Sc., B.Ed.", experience: "13 Years" },
@@ -88,14 +92,19 @@ const Faculty = () => {
                 whileHover={{ y: -4 }}
                 className="rounded-2xl bg-card p-6 shadow-card hover:shadow-hover transition-all"
               >
-                <div className="w-20 h-20 rounded-full bg-secondary mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-2xl font-display font-bold text-gold">{faculty.name.charAt(faculty.name.indexOf(' ') + 1)}</span>
-                </div>
+                {faculty.photo ? (
+                  <img src={faculty.photo} alt={faculty.name} className="w-20 h-20 rounded-full mx-auto mb-4 object-cover" />
+                ) : (
+                  <div className="w-20 h-20 rounded-full bg-secondary mx-auto mb-4 flex items-center justify-center">
+                    <span className="text-2xl font-display font-bold text-gold">{faculty.name.charAt(faculty.name.indexOf(' ') + 1)}</span>
+                  </div>
+                )}
                 <h3 className="text-center font-display font-bold text-foreground text-sm">{faculty.name}</h3>
                 <p className="text-center text-gold font-medium text-xs uppercase tracking-wider mt-1">{faculty.subject}</p>
                 <div className="mt-4 space-y-1 text-center">
                   <p className="text-muted-foreground text-xs">{faculty.qualification}</p>
                   <p className="text-muted-foreground text-xs">{faculty.experience} Experience</p>
+                  {faculty.bio && <p className="text-muted-foreground text-xs mt-2 leading-relaxed">{faculty.bio}</p>}
                 </div>
               </motion.div>
             ))}
