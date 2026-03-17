@@ -35,6 +35,7 @@ const facultyData: FacultyMember[] = [
   { name: "Sri Md. Fazil", category: "BiPC", subject: "Zoology", qualification: "M.Sc., B.Ed.", experience: "15 Years" },
   { name: "Smt. G. Sarojini", category: "BiPC", subject: "Zoology", qualification: "M.Sc., M.Phil.", experience: "11 Years" },
   { name: "Sri B. Ravi Kumar", category: "BiPC", subject: "Chemistry", qualification: "M.Sc., B.Ed.", experience: "14 Years" },
+  { name: "MSD Lakshmi Narayana", category: "BiPC", subject: "Chemistry", qualification: "M.Sc.", experience: "19 Years", photo: msdLakshmiNarayana, bio: "MSD Lakshmi Narayana, our highly experienced Chemistry faculty, brings 19 years of dedicated teaching expertise in JEE and EAPCET coaching. Known for his in-depth subject knowledge and result-oriented approach, he has guided countless students toward top ranks in competitive exams." },
   // Arts & Commerce
   { name: "Sri D. Suresh", category: "Arts & Commerce", subject: "Civics", qualification: "M.A., B.Ed.", experience: "16 Years" },
   { name: "Smt. K. Padma", category: "Arts & Commerce", subject: "Economics", qualification: "M.A., M.Phil.", experience: "18 Years" },
