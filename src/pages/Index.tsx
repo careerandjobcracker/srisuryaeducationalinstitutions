@@ -9,9 +9,11 @@ import heroCampus from "@/assets/hero-campus.jpg";
 import heroStudents from "@/assets/hero-students.jpg";
 import heroLab from "@/assets/hero-lab.jpg";
 import logoNew from "@/assets/logo-new.jpg";
+import correspondentSir from "@/assets/correspondent-sir.jpeg";
 
 const heroSlides = [
   { image: logoNew, title: "Sri Surya Junior & Degree College", subtitle: "To Search For Bright - Narasapur", centerImage: true },
+  { image: correspondentSir, title: "Correspondent and Secretary", subtitle: "", centerImage: true },
   { image: heroCampus, title: "Building Future Leaders", subtitle: "Sri Surya Educational Institutions: Empowering students in Narasapuram with a legacy of top ranks and holistic development." },
   { image: heroStudents, title: "Academic Excellence in West Godavari", subtitle: "Consistently producing top rankers in Board Exams, EAMCET, and NEET with dedicated faculty and modern facilities." },
   { image: heroLab, title: "World-Class Facilities", subtitle: "State-of-the-art laboratories, smart classrooms, and a supportive learning environment for every student." },
