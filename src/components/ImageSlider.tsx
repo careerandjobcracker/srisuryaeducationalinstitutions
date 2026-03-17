@@ -60,11 +60,11 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
                 </div>
               </div>
               {/* Right side - Logo image */}
-              <div className="absolute right-0 top-0 w-1/2 h-full flex items-center justify-center">
+              <div className="absolute right-0 top-0 w-1/2 h-full flex items-center justify-center p-8">
                 <img
                   src={slides[current].image}
                   alt={slides[current].title}
-                  className="max-w-[80%] max-h-[60%] object-contain"
+                  className="max-w-full max-h-full object-contain rounded-xl shadow-elevated"
                 />
               </div>
             </div>
