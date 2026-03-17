@@ -105,7 +105,7 @@ const Faculty = () => {
                 <div className="mt-4 space-y-1 text-center">
                   <p className="text-muted-foreground text-xs">{faculty.qualification}</p>
                   <p className="text-muted-foreground text-xs">{faculty.experience} Experience</p>
-                  {faculty.bio && <p className="text-muted-foreground text-xs mt-2 leading-relaxed">{faculty.bio}</p>}
+                  {faculty.bio && <p className="text-muted-foreground text-xs mt-2 leading-relaxed font-semibold">{faculty.bio}</p>}
                 </div>
               </motion.div>
             ))}
