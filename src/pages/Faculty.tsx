@@ -48,7 +48,9 @@ const categories = ["All", "MPC", "BiPC", "Arts & Commerce"];
 
 const Faculty = () => {
   const [activeCategory, setActiveCategory] = useState("All");
-  const filtered = activeCategory === "All" ? facultyData : facultyData.filter(f => f.category === activeCategory);
+  const filtered = activeCategory === "All"
+    ? facultyData.filter((f, i, arr) => arr.findIndex(x => x.name === f.name) === i)
+    : facultyData.filter(f => f.category === activeCategory);
 
   return (
     <Layout>
