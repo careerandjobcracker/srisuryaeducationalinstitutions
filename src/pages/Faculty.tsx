@@ -92,14 +92,19 @@ const Faculty = () => {
                 whileHover={{ y: -4 }}
                 className="rounded-2xl bg-card p-6 shadow-card hover:shadow-hover transition-all"
               >
-                <div className="w-20 h-20 rounded-full bg-secondary mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-2xl font-display font-bold text-gold">{faculty.name.charAt(faculty.name.indexOf(' ') + 1)}</span>
-                </div>
+                {faculty.photo ? (
+                  <img src={faculty.photo} alt={faculty.name} className="w-20 h-20 rounded-full mx-auto mb-4 object-cover" />
+                ) : (
+                  <div className="w-20 h-20 rounded-full bg-secondary mx-auto mb-4 flex items-center justify-center">
+                    <span className="text-2xl font-display font-bold text-gold">{faculty.name.charAt(faculty.name.indexOf(' ') + 1)}</span>
+                  </div>
+                )}
                 <h3 className="text-center font-display font-bold text-foreground text-sm">{faculty.name}</h3>
                 <p className="text-center text-gold font-medium text-xs uppercase tracking-wider mt-1">{faculty.subject}</p>
                 <div className="mt-4 space-y-1 text-center">
                   <p className="text-muted-foreground text-xs">{faculty.qualification}</p>
                   <p className="text-muted-foreground text-xs">{faculty.experience} Experience</p>
+                  {faculty.bio && <p className="text-muted-foreground text-xs mt-2 leading-relaxed">{faculty.bio}</p>}
                 </div>
               </motion.div>
             ))}
