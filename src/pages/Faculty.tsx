@@ -28,7 +28,7 @@ const facultyData: FacultyMember[] = [
   { name: "Sri P. Reddy", category: "MPC", subject: "Physics", qualification: "M.Sc., M.Phil.", experience: "14 Years" },
   { name: "Smt. S. Lakshmi", category: "MPC", subject: "Chemistry", qualification: "M.Sc., B.Ed.", experience: "12 Years" },
   { name: "Sri K. Krishna Murthy", category: "MPC", subject: "Chemistry", qualification: "M.Sc., Ph.D.", experience: "20 Years" },
-  { name: "MSD Lakshmi Narayana", category: "MPC", subject: "Chemistry", qualification: "M.Sc.", experience: "19 Years", photo: msdLakshmiNarayana, bio: "KSD Lakshmi Narayana, our highly experienced Chemistry faculty, brings 19 years of dedicated teaching expertise in JEE and EAPCET coaching. Known for his in-depth subject knowledge and result-oriented approach, he has guided countless students toward top ranks in competitive exams." },
+  { name: "MSD Lakshmi Narayana", category: "MPC", subject: "Chemistry", qualification: "M.Sc.", experience: "19 Years", photo: msdLakshmiNarayana, bio: "MSD Lakshmi Narayana, our highly experienced Chemistry faculty, brings 19 years of dedicated teaching expertise in JEE and EAPCET coaching. Known for his in-depth subject knowledge and result-oriented approach, he has guided countless students toward top ranks in competitive exams." },
   // BiPC
   { name: "Dr. R. Prasad", category: "BiPC", subject: "Botany", qualification: "M.Sc., Ph.D.", experience: "17 Years" },
   { name: "Smt. V. Padmavathi", category: "BiPC", subject: "Botany", qualification: "M.Sc., B.Ed.", experience: "13 Years" },
