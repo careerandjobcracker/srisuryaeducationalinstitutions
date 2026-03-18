@@ -10,6 +10,7 @@ import Achievements from "./pages/Achievements";
 import Academics from "./pages/Academics";
 import Events from "./pages/Events";
 import Faculty from "./pages/Faculty";
+import FacultyDetail from "./pages/FacultyDetail";
 import Community from "./pages/Community";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";

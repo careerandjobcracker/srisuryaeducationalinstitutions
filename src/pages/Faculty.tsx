@@ -2,49 +2,14 @@ import Layout from "@/components/Layout";
 import SectionHeading from "@/components/SectionHeading";
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import heroCampus from "@/assets/hero-campus.jpg";
-import msdLakshmiNarayana from "@/assets/faculty/msd-lakshmi-narayana.jpg";
+import facultyData, { categories } from "@/data/facultyData";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
   visible: (i: number) => ({ opacity: 1, y: 0, transition: { delay: i * 0.05, duration: 0.4, ease: "easeOut" as const } }),
 };
-
-interface FacultyMember {
-  name: string;
-  qualification: string;
-  experience: string;
-  subject: string;
-  category: string;
-  photo?: string;
-  bio?: string;
-}
-
-const facultyData: FacultyMember[] = [
-  // MPC
-  { name: "Sri L. Narasimha Rao", category: "MPC", subject: "Mathematics", qualification: "M.Sc., B.Ed.", experience: "18 Years" },
-  { name: "Sri M. Prakash", category: "MPC", subject: "Mathematics", qualification: "M.Sc., B.Ed.", experience: "15 Years" },
-  { name: "Sri K. Venkatesh", category: "MPC", subject: "Physics", qualification: "M.Sc., B.Ed.", experience: "16 Years" },
-  { name: "Sri P. Reddy", category: "MPC", subject: "Physics", qualification: "M.Sc., M.Phil.", experience: "14 Years" },
-  { name: "Smt. S. Lakshmi", category: "MPC", subject: "Chemistry", qualification: "M.Sc., B.Ed.", experience: "12 Years" },
-  { name: "Sri K. Krishna Murthy", category: "MPC", subject: "Chemistry", qualification: "M.Sc., Ph.D.", experience: "20 Years" },
-  { name: "MSD Lakshmi Narayana", category: "MPC", subject: "Chemistry", qualification: "M.Sc.", experience: "19 Years", photo: msdLakshmiNarayana, bio: "MSD Lakshmi Narayana, our highly experienced Chemistry faculty, brings 19 years of dedicated teaching expertise in JEE and EAPCET coaching. Known for his in-depth subject knowledge and result-oriented approach, he has guided countless students toward top ranks in competitive exams." },
-  // BiPC
-  { name: "Dr. R. Prasad", category: "BiPC", subject: "Botany", qualification: "M.Sc., Ph.D.", experience: "17 Years" },
-  { name: "Smt. V. Padmavathi", category: "BiPC", subject: "Botany", qualification: "M.Sc., B.Ed.", experience: "13 Years" },
-  { name: "Sri Md. Fazil", category: "BiPC", subject: "Zoology", qualification: "M.Sc., B.Ed.", experience: "15 Years" },
-  { name: "Smt. G. Sarojini", category: "BiPC", subject: "Zoology", qualification: "M.Sc., M.Phil.", experience: "11 Years" },
-  { name: "Sri B. Ravi Kumar", category: "BiPC", subject: "Chemistry", qualification: "M.Sc., B.Ed.", experience: "14 Years" },
-  { name: "MSD Lakshmi Narayana", category: "BiPC", subject: "Chemistry", qualification: "M.Sc.", experience: "19 Years", photo: msdLakshmiNarayana, bio: "MSD Lakshmi Narayana, our highly experienced Chemistry faculty, brings 19 years of dedicated teaching expertise in JEE and EAPCET coaching. Known for his in-depth subject knowledge and result-oriented approach, he has guided countless students toward top ranks in competitive exams." },
-  // Arts & Commerce
-  { name: "Sri D. Suresh", category: "Arts & Commerce", subject: "Civics", qualification: "M.A., B.Ed.", experience: "16 Years" },
-  { name: "Smt. K. Padma", category: "Arts & Commerce", subject: "Economics", qualification: "M.A., M.Phil.", experience: "18 Years" },
-  { name: "Sri M. Raju", category: "Arts & Commerce", subject: "Commerce", qualification: "M.Com., B.Ed.", experience: "15 Years" },
-  { name: "Sri A. Myle", category: "Arts & Commerce", subject: "English", qualification: "M.A., B.Ed.", experience: "12 Years" },
-  { name: "Smt. R. Vijaya", category: "Arts & Commerce", subject: "Telugu", qualification: "M.A., B.Ed.", experience: "19 Years" },
-];
-
-const categories = ["All", "MPC", "BiPC", "Arts & Commerce"];
 
 const Faculty = () => {
   const [activeCategory, setActiveCategory] = useState("All");
@@ -86,20 +51,20 @@ const Faculty = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {filtered.map((faculty, i) => (
               <motion.div
-                key={faculty.name}
+                key={faculty.id}
                 custom={i}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
                 variants={fadeUp}
                 whileHover={{ y: -4 }}
-                className="rounded-2xl bg-card p-6 shadow-card hover:shadow-hover transition-all"
+                className="rounded-2xl bg-card p-6 shadow-card hover:shadow-hover transition-all flex flex-col"
               >
                 {faculty.photo ? (
-                  <img src={faculty.photo} alt={faculty.name} className="w-20 h-20 rounded-full mx-auto mb-4 object-cover" />
+                  <img src={faculty.photo} alt={faculty.name} className="w-28 h-28 rounded-full mx-auto mb-4 object-cover shadow-sm" />
                 ) : (
-                  <div className="w-20 h-20 rounded-full bg-secondary mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-2xl font-display font-bold text-gold">{faculty.name.charAt(faculty.name.indexOf(' ') + 1)}</span>
+                  <div className="w-28 h-28 rounded-full bg-secondary mx-auto mb-4 flex items-center justify-center">
+                    <span className="text-3xl font-display font-bold text-gold">{faculty.name.charAt(faculty.name.indexOf(' ') + 1)}</span>
                   </div>
                 )}
                 <h3 className="text-center font-display font-bold text-foreground text-sm">{faculty.name}</h3>
@@ -107,8 +72,13 @@ const Faculty = () => {
                 <div className="mt-4 space-y-1 text-center">
                   <p className="text-muted-foreground text-xs">{faculty.qualification}</p>
                   <p className="text-muted-foreground text-xs">{faculty.experience} Experience</p>
-                  {faculty.bio && <p className="text-muted-foreground text-xs mt-2 leading-relaxed font-semibold">{faculty.bio}</p>}
                 </div>
+                <Link
+                  to={`/faculty/${faculty.id}`}
+                  className="mt-4 mx-auto inline-block text-gold hover:text-gold/80 text-xs font-semibold uppercase tracking-wider transition-colors"
+                >
+                  Learn More →
+                </Link>
               </motion.div>
             ))}
           </div>
