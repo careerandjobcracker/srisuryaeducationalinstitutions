@@ -178,7 +178,7 @@ const facultyData: FacultyMember[] = [
   },
   {
     id: "msd-lakshmi-narayana",
-    name: "MSD Lakshmi Narayana",
+    name: "Mr. MSD. Lakshmi Narayana",
     category: "MPC",
     subject: "Chemistry",
     qualification: "M.Sc.",
