@@ -1,4 +1,5 @@
 import msdLakshmiNarayana from "@/assets/faculty/msd-lakshmi-narayana.jpg";
+import boyiRamachandraReddy from "@/assets/faculty/boyi-ramachandra-reddy.jpg";
 
 export interface FacultyMember {
   id: string;
