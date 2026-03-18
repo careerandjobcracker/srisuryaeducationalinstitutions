@@ -10,6 +10,7 @@ import Achievements from "./pages/Achievements";
 import Academics from "./pages/Academics";
 import Events from "./pages/Events";
 import Faculty from "./pages/Faculty";
+import FacultyDetail from "./pages/FacultyDetail";
 import Community from "./pages/Community";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
@@ -30,6 +31,7 @@ const App = () => (
           <Route path="/academics" element={<Academics />} />
           <Route path="/events" element={<Events />} />
           <Route path="/faculty" element={<Faculty />} />
+          <Route path="/faculty/:id" element={<FacultyDetail />} />
           <Route path="/community" element={<Community />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
