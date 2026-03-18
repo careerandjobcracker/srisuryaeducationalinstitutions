@@ -18,6 +18,33 @@ export interface FacultyMember {
 const facultyData: FacultyMember[] = [
   // MPC
   {
+    id: "boyi-ramachandra-reddy",
+    name: "Boyi. Ramachandra Reddy",
+    category: "MPC",
+    subject: "Mathematics",
+    qualification: "M.Sc., B.Ed.",
+    experience: "30 Years",
+    photo: boyiRamachandraReddy,
+    bio: "A veteran JEE Mathematics faculty with over 30 years of experience, renowned for his easy and effective teaching style.",
+    detailedBio: "Boyi. Ramachandra Reddy is a veteran JEE Mathematics faculty member with over 30 years of teaching experience. Renowned for his easy and effective teaching style, he makes even the most complex concepts simple to understand. With a proven track record of mentoring thousands of students to top ranks in IIT-JEE, his clear explanations, deep subject knowledge, and student-friendly approach make him a highly sought-after mentor for JEE aspirants.",
+    activities: [
+      "Specialized IIT-JEE Mathematics coaching for over 30 years",
+      "Conducted intensive crash courses and revision sessions for JEE aspirants",
+      "Developed simplified study materials for complex Mathematics topics",
+      "Mentored thousands of students individually for competitive exam preparation",
+      "Conducted special problem-solving workshops on advanced Mathematics",
+      "Active participation in curriculum design and academic planning",
+    ],
+    achievements: [
+      "30+ years of uninterrupted dedicated teaching service",
+      "Mentored thousands of students to top ranks in IIT-JEE",
+      "Renowned for making complex Mathematics concepts easy to understand",
+      "Consistently produced top scorers in JEE Mathematics section",
+      "Recognized as one of the most sought-after JEE Mathematics mentors in the region",
+      "Awarded for outstanding contributions to Mathematics education",
+    ],
+  },
+  {
     id: "l-narasimha-rao",
     name: "Sri L. Narasimha Rao",
     category: "MPC",
