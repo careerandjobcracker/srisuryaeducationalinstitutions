@@ -1,5 +1,6 @@
 import msdLakshmiNarayana from "@/assets/faculty/msd-lakshmi-narayana.jpg";
 import boyiRamachandraReddy from "@/assets/faculty/boyi-ramachandra-reddy.jpg";
+import sVenuGopal from "@/assets/faculty/s-venu-gopal.jpg";
 
 export interface FacultyMember {
   id: string;
