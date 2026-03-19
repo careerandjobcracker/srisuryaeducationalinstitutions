@@ -1,5 +1,6 @@
 import msdLakshmiNarayana from "@/assets/faculty/msd-lakshmi-narayana.jpg";
 import boyiRamachandraReddy from "@/assets/faculty/boyi-ramachandra-reddy.jpg";
+import sVenuGopal from "@/assets/faculty/s-venu-gopal.jpg";
 
 export interface FacultyMember {
   id: string;
@@ -41,6 +42,33 @@ const facultyData: FacultyMember[] = [
       "Renowned for making complex Mathematics concepts easy to understand",
       "Consistently produced top scorers in JEE Mathematics section",
       "Recognized as one of the most sought-after JEE Mathematics mentors in the region",
+      "Awarded for outstanding contributions to Mathematics education",
+    ],
+  },
+  {
+    id: "s-venu-gopal",
+    name: "Mr. S. Venu Gopal",
+    category: "MPC",
+    subject: "Mathematics",
+    qualification: "M.Sc., B.Ed.",
+    experience: "27 Years",
+    photo: sVenuGopal,
+    bio: "A highly experienced JEE Mathematics faculty with 27 years of excellence in teaching, renowned for his deep conceptual approach.",
+    detailedBio: "Mr. Venu Gopal is a Highly Experienced JEE Mathematics Faculty with 27 years of excellence in Teaching. Renowned for his deep conceptual approach and problem-solving techniques, he has guided thousands of students toward success in JEE. His dedication, clarity in teaching and vast experience make him a pillar of support for Engineering aspirants.",
+    activities: [
+      "Specialized IIT-JEE Mathematics coaching for over 27 years",
+      "Conducted intensive problem-solving workshops for JEE aspirants",
+      "Developed comprehensive study materials focusing on conceptual clarity",
+      "Mentored thousands of students individually for competitive exam preparation",
+      "Conducted special revision and crash course sessions before JEE exams",
+      "Active participation in curriculum design and academic planning",
+    ],
+    achievements: [
+      "27 years of uninterrupted dedicated teaching service",
+      "Guided thousands of students toward success in JEE",
+      "Renowned for deep conceptual approach and problem-solving techniques",
+      "Consistently produced top scorers in JEE Mathematics section",
+      "Recognized as a pillar of support for Engineering aspirants",
       "Awarded for outstanding contributions to Mathematics education",
     ],
   },
