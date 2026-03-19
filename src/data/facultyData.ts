@@ -483,6 +483,30 @@ const facultyData: FacultyMember[] = [
       "Awarded for outstanding contributions to Telugu education",
     ],
   },
+  {
+    id: "padavala-satyanarayana",
+    name: "Mr. Padavala Satyanarayana",
+    qualification: "M.Sc., B.Ed.",
+    experience: "13 Years",
+    subject: "Mathematics",
+    category: "MPC",
+    photo: padavalaSatyanarayana,
+    bio: "An accomplished JEE Mathematics faculty with 13 years of teaching experience, known for structured approach and clarity.",
+    detailedBio:
+      "Mr. Padavala Satyanarayana is an accomplished JEE Mathematics Faculty with 13 years of Teaching experience. Known for his structured approach and clarity in concepts, he helps students master problem-solving techniques essential for cracking JEE. His patient teaching style and consistent guidance make him a reliable mentor for aspiring Engineers.",
+    activities: [
+      "Specialized IIT-JEE Mathematics coaching with structured problem-solving techniques",
+      "Developed comprehensive study materials for JEE Mathematics preparation",
+      "Conducts regular doubt-clearing sessions and practice tests",
+      "Mentors students individually to strengthen weak areas in Mathematics",
+    ],
+    achievements: [
+      "13 years of dedicated teaching service in JEE Mathematics",
+      "Guided numerous students toward success in competitive engineering entrance exams",
+      "Recognized for patient teaching style and consistent student mentorship",
+      "Known for clarity in concepts and structured approach to problem-solving",
+    ],
+  },
 ];
 
 export const categories = ["All", "MPC", "BiPC", "Arts & Commerce"];
