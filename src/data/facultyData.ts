@@ -2,6 +2,7 @@ import msdLakshmiNarayana from "@/assets/faculty/msd-lakshmi-narayana.jpg";
 import boyiRamachandraReddy from "@/assets/faculty/boyi-ramachandra-reddy.jpg";
 import sVenuGopal from "@/assets/faculty/s-venu-gopal.jpg";
 import padavalaSatyanarayana from "@/assets/faculty/padavala-satyanarayana.png";
+import naredlaPrakash from "@/assets/faculty/naredla-prakash.jpg";
 
 export interface FacultyMember {
   id: string;
@@ -505,6 +506,30 @@ const facultyData: FacultyMember[] = [
       "Guided numerous students toward success in competitive engineering entrance exams",
       "Recognized for patient teaching style and consistent student mentorship",
       "Known for clarity in concepts and structured approach to problem-solving",
+    ],
+  },
+  {
+    id: "naredla-prakash",
+    name: "Mr. Naredla. Prakash",
+    qualification: "M.Sc.",
+    experience: "12 Years",
+    subject: "Mathematics",
+    category: "MPC",
+    photo: naredlaPrakash,
+    bio: "A highly experienced JEE Mathematics faculty with over 12 years of dedicated teaching expertise, known for clear explanations and strategic problem-solving.",
+    detailedBio:
+      "Mr. Naredla. Prakash is a highly experienced JEE Mathematics Faculty with over 12 years of dedicated teaching expertise. Known for his clear explanations and strategic approach to problem-solving, he has helped numerous students achieve top ranks in JEE. His deep subject knowledge and student-centric teaching style make him a trusted mentor for aspirants aiming for excellence.",
+    activities: [
+      "Specialized IIT-JEE Mathematics coaching with strategic problem-solving approach",
+      "Developed comprehensive study materials for JEE Mathematics preparation",
+      "Conducts regular doubt-clearing sessions and practice tests",
+      "Mentors students individually to strengthen weak areas in Mathematics",
+    ],
+    achievements: [
+      "12 years of dedicated teaching service in JEE Mathematics",
+      "Helped numerous students achieve top ranks in JEE",
+      "Recognized for clear explanations and student-centric teaching style",
+      "Known for deep subject knowledge and strategic approach to problem-solving",
     ],
   },
 ];
