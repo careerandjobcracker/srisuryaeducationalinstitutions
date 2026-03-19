@@ -533,6 +533,62 @@ const facultyData: FacultyMember[] = [
       "Known for deep subject knowledge and strategic approach to problem-solving",
     ],
   },
+  {
+    id: "dr-mohammed-fazil-mpc",
+    name: "Dr. Mohammed Fazil",
+    qualification: "M.Sc., B.Ed., DMO, Ph.D.",
+    experience: "30 Years",
+    subject: "Chemistry",
+    category: "MPC",
+    photo: drMohammedFazil,
+    bio: "A highly experienced JEE Chemistry faculty with over 30 years of teaching expertise, renowned for mastery in Organic, Inorganic and Physical Chemistry.",
+    detailedBio:
+      "Dr. Md. Fazil is a highly experienced JEE Chemistry Faculty with an impressive over 30 years of Teaching expertise. Renowned for his mastery in Organic, Inorganic and Physical Chemistry, he has guided countless students toward top ranks in JEE. His in-depth knowledge, conceptual clarity, and student-friendly teaching methods make him a pillar of support for serious aspirants aiming for success.",
+    activities: [
+      "Specialized JEE Chemistry coaching covering Organic, Inorganic and Physical Chemistry for over 30 years",
+      "Conducted intensive crash courses and revision sessions for JEE aspirants",
+      "Developed comprehensive Chemistry study materials and question banks",
+      "Mentored countless students individually for competitive exam preparation",
+      "Organized mock tests and performance analysis sessions",
+      "Active participation in curriculum design and academic planning",
+    ],
+    achievements: [
+      "30+ years of uninterrupted dedicated teaching service in Chemistry",
+      "Guided countless students toward top ranks in JEE",
+      "Renowned for mastery in Organic, Inorganic and Physical Chemistry",
+      "Consistently produced top scorers in JEE Chemistry section",
+      "Recognized as a pillar of support for serious JEE aspirants",
+      "Awarded for outstanding contributions to Chemistry education",
+    ],
+  },
+  {
+    id: "dr-mohammed-fazil-bipc",
+    name: "Dr. Mohammed Fazil",
+    qualification: "M.Sc., B.Ed., DMO, Ph.D.",
+    experience: "30 Years",
+    subject: "Chemistry",
+    category: "BiPC",
+    photo: drMohammedFazil,
+    bio: "A highly experienced Chemistry faculty with over 30 years of teaching expertise, renowned for mastery in Organic, Inorganic and Physical Chemistry.",
+    detailedBio:
+      "Dr. Md. Fazil is a highly experienced Chemistry Faculty with an impressive over 30 years of Teaching expertise. Renowned for his mastery in Organic, Inorganic and Physical Chemistry, he has guided countless students toward top ranks in competitive exams. His in-depth knowledge, conceptual clarity, and student-friendly teaching methods make him a pillar of support for serious aspirants aiming for success.",
+    activities: [
+      "Specialized Chemistry coaching covering Organic, Inorganic and Physical Chemistry for over 30 years",
+      "Conducted intensive crash courses and revision sessions for NEET and competitive exam aspirants",
+      "Developed comprehensive Chemistry study materials and question banks",
+      "Mentored countless students individually for competitive exam preparation",
+      "Organized mock tests and performance analysis sessions",
+      "Active participation in curriculum design and academic planning",
+    ],
+    achievements: [
+      "30+ years of uninterrupted dedicated teaching service in Chemistry",
+      "Guided countless students toward top ranks in competitive exams",
+      "Renowned for mastery in Organic, Inorganic and Physical Chemistry",
+      "Consistently produced top scorers in Chemistry section",
+      "Recognized as a pillar of support for serious aspirants",
+      "Awarded for outstanding contributions to Chemistry education",
+    ],
+  },
 ];
 
 export const categories = ["All", "MPC", "BiPC", "Arts & Commerce"];
