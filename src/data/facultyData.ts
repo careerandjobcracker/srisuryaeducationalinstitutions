@@ -3,6 +3,7 @@ import boyiRamachandraReddy from "@/assets/faculty/boyi-ramachandra-reddy.jpg";
 import sVenuGopal from "@/assets/faculty/s-venu-gopal.jpg";
 import padavalaSatyanarayana from "@/assets/faculty/padavala-satyanarayana.png";
 import naredlaPrakash from "@/assets/faculty/naredla-prakash.jpg";
+import drMohammedFazil from "@/assets/faculty/dr-mohammed-fazil.jpg";
 
 export interface FacultyMember {
   id: string;
