@@ -77,8 +77,8 @@ const Header = () => {
           <Link to="/" className="flex items-center gap-3">
             <img src={logo} alt="Sri Surya Educational Institutions" className="h-12 w-12 object-contain" />
             <div className="hidden sm:block">
-              <p className="font-display font-bold text-primary text-lg leading-tight">Sri Surya</p>
-              <p className="text-muted-foreground text-xs">Educational Institutions</p>
+              <p className="font-display font-bold text-primary text-2xl leading-tight">Sri Surya</p>
+              <p className="text-muted-foreground text-sm">Educational Institutions</p>
             </div>
           </Link>
 
