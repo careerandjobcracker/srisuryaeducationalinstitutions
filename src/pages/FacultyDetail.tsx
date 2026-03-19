@@ -65,7 +65,7 @@ const FacultyDetail = () => {
             <div className="flex-1 space-y-4">
               <div>
                 <h2 className="text-2xl font-display font-bold text-foreground">{faculty.name}</h2>
-                <p className="text-gold font-semibold text-sm uppercase tracking-wider mt-1">{faculty.subject} — {faculty.category}</p>
+                <p className="text-gold font-semibold text-sm uppercase tracking-wider mt-1">{faculty.subject}</p>
               </div>
 
               <div className="flex flex-wrap gap-3">
