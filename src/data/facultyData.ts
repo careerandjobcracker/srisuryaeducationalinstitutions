@@ -4,6 +4,7 @@ import sVenuGopal from "@/assets/faculty/s-venu-gopal.jpg";
 import padavalaSatyanarayana from "@/assets/faculty/padavala-satyanarayana.png";
 import naredlaPrakash from "@/assets/faculty/naredla-prakash.jpg";
 import drMohammedFazil from "@/assets/faculty/dr-mohammed-fazil.jpg";
+import tumpudiKrishnaGupta from "@/assets/faculty/tumpudi-krishna-gupta.png";
 
 export interface FacultyMember {
   id: string;
@@ -587,6 +588,62 @@ const facultyData: FacultyMember[] = [
       "Consistently produced top scorers in Chemistry section",
       "Recognized as a pillar of support for serious aspirants",
       "Awarded for outstanding contributions to Chemistry education",
+    ],
+  },
+  {
+    id: "tumpudi-krishna-gupta-mpc",
+    name: "Mr. Tumpudi Krishna Gupta",
+    qualification: "M.Sc., B.Ed.",
+    experience: "12 Years",
+    subject: "Physics",
+    category: "MPC",
+    photo: tumpudiKrishnaGupta,
+    bio: "A dedicated JEE Physics faculty with 12 years of teaching experience, known for making complex physics concepts easy to grasp.",
+    detailedBio:
+      "Mr. Tumpudi Krishna Gupta is a dedicated JEE Physics faculty with 12 years of teaching experience. His strength lies in making complex physics concepts easy to grasp through clear explanations and practical examples. With a focus on fundamentals and application-based learning, he has helped numerous students excel in JEE Physics.",
+    activities: [
+      "Specialized Physics coaching for JEE aspirants for over 12 years",
+      "Developed clear and practical teaching methods for complex physics concepts",
+      "Conducted intensive revision sessions and crash courses for JEE preparation",
+      "Created comprehensive Physics study materials and problem sets",
+      "Mentored students individually for application-based learning",
+      "Active participation in academic planning and curriculum development",
+    ],
+    achievements: [
+      "12 years of dedicated teaching service in Physics",
+      "Helped numerous students excel in JEE Physics",
+      "Recognized for making complex concepts easy to understand",
+      "Consistently produced strong performers in Physics section",
+      "Known for fundamentals-focused and application-based teaching approach",
+      "Appreciated for clear explanations and practical examples",
+    ],
+  },
+  {
+    id: "tumpudi-krishna-gupta-bipc",
+    name: "Mr. Tumpudi Krishna Gupta",
+    qualification: "M.Sc., B.Ed.",
+    experience: "12 Years",
+    subject: "Physics",
+    category: "BiPC",
+    photo: tumpudiKrishnaGupta,
+    bio: "A dedicated JEE Physics faculty with 12 years of teaching experience, known for making complex physics concepts easy to grasp.",
+    detailedBio:
+      "Mr. Tumpudi Krishna Gupta is a dedicated JEE Physics faculty with 12 years of teaching experience. His strength lies in making complex physics concepts easy to grasp through clear explanations and practical examples. With a focus on fundamentals and application-based learning, he has helped numerous students excel in JEE Physics.",
+    activities: [
+      "Specialized Physics coaching for JEE aspirants for over 12 years",
+      "Developed clear and practical teaching methods for complex physics concepts",
+      "Conducted intensive revision sessions and crash courses for competitive exam preparation",
+      "Created comprehensive Physics study materials and problem sets",
+      "Mentored students individually for application-based learning",
+      "Active participation in academic planning and curriculum development",
+    ],
+    achievements: [
+      "12 years of dedicated teaching service in Physics",
+      "Helped numerous students excel in competitive Physics exams",
+      "Recognized for making complex concepts easy to understand",
+      "Consistently produced strong performers in Physics section",
+      "Known for fundamentals-focused and application-based teaching approach",
+      "Appreciated for clear explanations and practical examples",
     ],
   },
 ];
