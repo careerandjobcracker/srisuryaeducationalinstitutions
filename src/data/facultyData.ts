@@ -5,6 +5,7 @@ import padavalaSatyanarayana from "@/assets/faculty/padavala-satyanarayana.png";
 import naredlaPrakash from "@/assets/faculty/naredla-prakash.jpg";
 import drMohammedFazil from "@/assets/faculty/dr-mohammed-fazil.jpg";
 import tumpudiKrishnaGupta from "@/assets/faculty/tumpudi-krishna-gupta.png";
+import pLeelaVenkatesh from "@/assets/faculty/p-leela-venkatesh.jpg";
 
 export interface FacultyMember {
   id: string;
@@ -644,6 +645,62 @@ const facultyData: FacultyMember[] = [
       "Consistently produced strong performers in Physics section",
       "Known for fundamentals-focused and application-based teaching approach",
       "Appreciated for clear explanations and practical examples",
+    ],
+  },
+  {
+    id: "p-leela-venkatesh-mpc",
+    name: "Mr. P. Leela. Venkatesh",
+    qualification: "M.Sc.",
+    experience: "13 Years",
+    subject: "Chemistry",
+    category: "MPC",
+    photo: pLeelaVenkatesh,
+    bio: "An expert JEE Chemistry faculty with 13 years of teaching experience and strong command over all branches of Chemistry.",
+    detailedBio:
+      "Mr. P. Leela. Venkatesh is an expert JEE Chemistry faculty with 13 years of Teaching experience. His strong command over Physical, Organic, and Inorganic Chemistry, along with his clear and result-oriented teaching methods, has helped many students achieve top ranks in JEE. His passion for teaching and focus on conceptual clarity make him a valuable mentor for Engineering aspirants.",
+    activities: [
+      "Specialized JEE Chemistry coaching covering Physical, Organic, and Inorganic Chemistry",
+      "Developed result-oriented study materials and question banks for JEE preparation",
+      "Conducted intensive revision sessions and crash courses for competitive exams",
+      "Mentored students individually with focus on conceptual clarity",
+      "Organized mock tests and performance analysis sessions for JEE aspirants",
+      "Active participation in curriculum design and academic planning",
+    ],
+    achievements: [
+      "13 years of dedicated teaching service in Chemistry",
+      "Helped many students achieve top ranks in JEE",
+      "Strong command over Physical, Organic, and Inorganic Chemistry",
+      "Recognized for clear and result-oriented teaching methods",
+      "Known as a valuable mentor for Engineering aspirants",
+      "Appreciated for passion for teaching and focus on conceptual clarity",
+    ],
+  },
+  {
+    id: "p-leela-venkatesh-bipc",
+    name: "Mr. P. Leela. Venkatesh",
+    qualification: "M.Sc.",
+    experience: "13 Years",
+    subject: "Chemistry",
+    category: "BiPC",
+    photo: pLeelaVenkatesh,
+    bio: "An expert JEE Chemistry faculty with 13 years of teaching experience and strong command over all branches of Chemistry.",
+    detailedBio:
+      "Mr. P. Leela. Venkatesh is an expert JEE Chemistry faculty with 13 years of Teaching experience. His strong command over Physical, Organic, and Inorganic Chemistry, along with his clear and result-oriented teaching methods, has helped many students achieve top ranks in JEE. His passion for teaching and focus on conceptual clarity make him a valuable mentor for Engineering aspirants.",
+    activities: [
+      "Specialized Chemistry coaching covering Physical, Organic, and Inorganic Chemistry",
+      "Developed result-oriented study materials and question banks for competitive exams",
+      "Conducted intensive revision sessions and crash courses for exam preparation",
+      "Mentored students individually with focus on conceptual clarity",
+      "Organized mock tests and performance analysis sessions",
+      "Active participation in curriculum design and academic planning",
+    ],
+    achievements: [
+      "13 years of dedicated teaching service in Chemistry",
+      "Helped many students achieve top ranks in competitive exams",
+      "Strong command over Physical, Organic, and Inorganic Chemistry",
+      "Recognized for clear and result-oriented teaching methods",
+      "Known as a valuable mentor for aspiring students",
+      "Appreciated for passion for teaching and focus on conceptual clarity",
     ],
   },
 ];
