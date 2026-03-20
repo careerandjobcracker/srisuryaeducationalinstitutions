@@ -50,7 +50,7 @@ const FacultyDetail = () => {
                 <img
                   src={faculty.photo}
                   alt={faculty.name}
-                  className="w-48 h-48 md:w-56 md:h-56 rounded-2xl object-cover shadow-card"
+                  className="w-48 h-48 md:w-56 md:h-56 rounded-2xl object-cover object-top shadow-card"
                 />
               ) : (
                 <div className="w-48 h-48 md:w-56 md:h-56 rounded-2xl bg-secondary flex items-center justify-center shadow-card">

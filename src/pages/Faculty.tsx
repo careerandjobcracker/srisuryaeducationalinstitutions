@@ -61,7 +61,7 @@ const Faculty = () => {
                 className="rounded-2xl bg-card p-6 shadow-card hover:shadow-hover transition-all flex flex-col"
               >
                 {faculty.photo ? (
-                  <img src={faculty.photo} alt={faculty.name} className="w-28 h-28 rounded-full mx-auto mb-4 object-cover shadow-sm" />
+                  <img src={faculty.photo} alt={faculty.name} className="w-28 h-28 rounded-full mx-auto mb-4 object-cover object-top shadow-sm" />
                 ) : (
                   <div className="w-28 h-28 rounded-full bg-secondary mx-auto mb-4 flex items-center justify-center">
                     <span className="text-3xl font-display font-bold text-gold">{faculty.name.charAt(faculty.name.indexOf(' ') + 1)}</span>
