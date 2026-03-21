@@ -6,6 +6,7 @@ import naredlaPrakash from "@/assets/faculty/naredla-prakash.jpg";
 import drMohammedFazil from "@/assets/faculty/dr-mohammed-fazil.jpg";
 import tumpudiKrishnaGupta from "@/assets/faculty/tumpudi-krishna-gupta.png";
 import pLeelaVenkatesh from "@/assets/faculty/p-leela-venkatesh.jpg";
+import myleSrinivas from "@/assets/faculty/myle-srinivas.jpg";
 
 export interface FacultyMember {
   id: string;
