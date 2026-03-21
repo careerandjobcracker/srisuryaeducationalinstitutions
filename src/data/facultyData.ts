@@ -6,6 +6,7 @@ import naredlaPrakash from "@/assets/faculty/naredla-prakash.jpg";
 import drMohammedFazil from "@/assets/faculty/dr-mohammed-fazil.jpg";
 import tumpudiKrishnaGupta from "@/assets/faculty/tumpudi-krishna-gupta.png";
 import pLeelaVenkatesh from "@/assets/faculty/p-leela-venkatesh.jpg";
+import myleSrinivas from "@/assets/faculty/myle-srinivas.jpg";
 
 export interface FacultyMember {
   id: string;
@@ -701,6 +702,33 @@ const facultyData: FacultyMember[] = [
       "Recognized for clear and result-oriented teaching methods",
       "Known as a valuable mentor for aspiring students",
       "Appreciated for passion for teaching and focus on conceptual clarity",
+    ],
+  },
+  // BiPC - Botany
+  {
+    id: "myle-srinivas",
+    name: "Mr. Myle. Srinivas",
+    qualification: "M.Sc., B.Ed.",
+    experience: "16 Years",
+    subject: "Botany",
+    category: "BiPC",
+    photo: myleSrinivas,
+    bio: "A highly experienced Botany faculty with over 16 years of dedicated teaching in NEET coaching.",
+    detailedBio:
+      "Mr. Myle. Srinivas is a highly experienced Botany Faculty member with over 16 years of dedicated teaching in NEET coaching. Known for his clear and engaging teaching style, he simplifies complex Botanical concepts, making them easy to understand and remember. His deep subject knowledge, combined with a student-centric approach and consistent mentoring, has helped countless students excel in NEET over the years. Mr. Srinivas's expertise and commitment make him a trusted guide for every serious NEET aspirant.",
+    activities: [
+      "Specialized Botany coaching for NEET aspirants",
+      "Developed simplified study materials for complex Botanical concepts",
+      "Consistent mentoring and guidance for NEET preparation",
+      "Active participation in curriculum development for Biology programs",
+    ],
+    achievements: [
+      "16 years of dedicated teaching service in Botany",
+      "Helped countless students excel in NEET examinations",
+      "Known for clear and engaging teaching style",
+      "Recognized for simplifying complex Botanical concepts",
+      "Trusted guide and mentor for serious NEET aspirants",
+      "Deep subject knowledge with a student-centric approach",
     ],
   },
 ];
