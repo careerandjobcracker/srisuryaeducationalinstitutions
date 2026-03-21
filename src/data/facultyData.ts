@@ -79,28 +79,6 @@ const facultyData: FacultyMember[] = [
     ],
   },
   {
-    id: "l-narasimha-rao",
-    name: "Sri L. Narasimha Rao",
-    category: "MPC",
-    subject: "Mathematics",
-    qualification: "M.Sc., B.Ed.",
-    experience: "18 Years",
-    bio: "A seasoned Mathematics educator with 18 years of experience in coaching students for competitive exams.",
-    detailedBio: "Sri L. Narasimha Rao is a highly dedicated Mathematics faculty member with 18 years of teaching experience. He specializes in preparing students for JEE and EAPCET examinations with a methodical approach to problem-solving and conceptual clarity.",
-    activities: [
-      "Conducted special coaching sessions for JEE aspirants",
-      "Organized inter-college Mathematics Olympiads",
-      "Mentored students for state-level math competitions",
-      "Developed comprehensive study material for competitive exams",
-    ],
-    achievements: [
-      "Guided multiple students to score above 95% in Mathematics",
-      "Produced top rankers in EAPCET Mathematics section",
-      "Awarded Best Faculty for consistent academic results",
-      "18 years of uninterrupted dedicated teaching service",
-    ],
-  },
-  {
     id: "m-prakash",
     name: "Sri M. Prakash",
     category: "MPC",
