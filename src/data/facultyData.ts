@@ -78,11 +78,6 @@ const facultyData: FacultyMember[] = [
       "Awarded for outstanding contributions to Mathematics education",
     ],
   },
-  // end of removed m-prakash
-  // end of removed k-venkatesh
-  // end of removed p-reddy
-  // end of removed s-lakshmi
-  // end of removed k-krishna-murthy
   {
     id: "msd-lakshmi-narayana",
     name: "Mr. MSD. Lakshmi Narayana",
