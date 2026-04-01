@@ -79,28 +79,7 @@ const facultyData: FacultyMember[] = [
     ],
   },
   // end of removed m-prakash
-  {
-    id: "k-venkatesh",
-    name: "Sri K. Venkatesh",
-    category: "MPC",
-    subject: "Physics",
-    qualification: "M.Sc., B.Ed.",
-    experience: "16 Years",
-    bio: "A Physics expert with 16 years of experience in JEE and EAPCET coaching.",
-    detailedBio: "Sri K. Venkatesh is a distinguished Physics faculty member with 16 years of teaching experience. He is known for his practical approach to Physics education, combining theoretical knowledge with real-world applications.",
-    activities: [
-      "Organized Physics practical demonstrations and lab sessions",
-      "Conducted special revision classes before exams",
-      "Developed visual learning aids for complex Physics concepts",
-      "Mentored students for national-level science competitions",
-    ],
-    achievements: [
-      "Produced top scorers in Physics in EAPCET examinations",
-      "Multiple students secured admissions in top engineering colleges",
-      "Awarded for excellence in Physics education",
-      "16 years of committed teaching service",
-    ],
-  },
+  // end of removed k-venkatesh
   {
     id: "p-reddy",
     name: "Sri P. Reddy",
