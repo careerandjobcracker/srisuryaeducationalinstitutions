@@ -109,11 +109,7 @@ const facultyData: FacultyMember[] = [
       "Developed innovative teaching methods adopted across departments",
     ],
   },
-  // end of removed r-prasad
-  // end of removed v-padmavathi
-  // end of removed md-fazil
-  // end of removed g-sarojini
-  // end of removed b-ravi-kumar
+  // BiPC
   {
     id: "msd-lakshmi-narayana-bipc",
     name: "Mr. MSD. Lakshmi Narayana",
