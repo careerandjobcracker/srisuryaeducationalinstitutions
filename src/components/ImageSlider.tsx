@@ -33,23 +33,23 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
         >
           {slides[current].centerImage ? (
             <div className="w-full h-full flex flex-col items-center justify-center bg-white px-4">
-              <div className="flex-1 flex items-center justify-center pt-8">
+              <div className="flex-1 flex items-center justify-center pt-4 md:pt-8">
                 <img
                   src={slides[current].image}
                   alt={slides[current].title}
-                  className="max-h-[50vh] md:max-h-[55vh] object-contain rounded-xl shadow-elevated"
+                  className="max-h-[40vh] md:max-h-[55vh] object-contain rounded-xl shadow-elevated"
                 />
               </div>
               <motion.div
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.2, duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
-                className="text-center pb-12 pt-4 space-y-2"
+                className="text-center pb-8 md:pb-12 pt-3 md:pt-4 space-y-1 md:space-y-2"
               >
-                <h1 className="text-2xl md:text-4xl font-display font-bold text-primary leading-tight">
+                <h1 className="text-xl md:text-4xl font-display font-bold text-primary leading-tight">
                   {slides[current].title}
                 </h1>
-                <p className="text-sm md:text-lg text-muted-foreground">
+                <p className="text-xs md:text-lg text-muted-foreground">
                   {slides[current].subtitle}
                 </p>
               </motion.div>
