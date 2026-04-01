@@ -105,7 +105,7 @@ const Footer = () => {
               </h4>
               <iframe
                 title="Sri Surya High School Location"
-                className="w-full h-64 rounded-lg grayscale hover:grayscale-0 transition-all duration-500"
+                className="w-full h-48 md:h-64 rounded-lg grayscale hover:grayscale-0 transition-all duration-500"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3823.5!2d81.69!3d16.44!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTbCsDI2JzI0LjAiTiA4McKwNDEnMjQuMCJF!5e0!3m2!1sen!2sin!4v1"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
