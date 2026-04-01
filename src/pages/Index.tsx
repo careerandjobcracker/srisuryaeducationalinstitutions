@@ -194,10 +194,10 @@ const Index = () => {
       {/* CTA */}
       <section className="py-20 bg-gold">
         <div className="container text-center">
-          <h2 className="text-3xl md:text-4xl font-display font-bold text-accent-foreground mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-display font-bold text-accent-foreground mb-4">
             Ready to Shape Your Future?
           </h2>
-          <p className="text-accent-foreground/80 text-lg mb-8 max-w-xl mx-auto">
+          <p className="text-accent-foreground/80 text-sm sm:text-lg mb-8 max-w-xl mx-auto px-4">
             Join Sri Surya Educational Institutions and become part of a legacy of excellence.
           </p>
           <Link
