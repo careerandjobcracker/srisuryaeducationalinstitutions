@@ -80,28 +80,7 @@ const facultyData: FacultyMember[] = [
   },
   // end of removed m-prakash
   // end of removed k-venkatesh
-  {
-    id: "p-reddy",
-    name: "Sri P. Reddy",
-    category: "MPC",
-    subject: "Physics",
-    qualification: "M.Sc., M.Phil.",
-    experience: "14 Years",
-    bio: "A dedicated Physics educator with M.Phil. research background and 14 years of teaching experience.",
-    detailedBio: "Sri P. Reddy combines his research background (M.Phil.) with 14 years of classroom experience to deliver comprehensive Physics education. His analytical approach helps students grasp complex concepts with ease.",
-    activities: [
-      "Research-oriented teaching methodology implementation",
-      "Conducted Physics seminars and workshops",
-      "Guided students in science project competitions",
-      "Developed advanced problem sets for JEE preparation",
-    ],
-    achievements: [
-      "Students consistently score high in Physics board exams",
-      "Guided students to success in JEE Mains and Advanced",
-      "Published educational articles on Physics teaching methods",
-      "14 years of distinguished teaching career",
-    ],
-  },
+  // end of removed p-reddy
   {
     id: "s-lakshmi",
     name: "Smt. S. Lakshmi",
