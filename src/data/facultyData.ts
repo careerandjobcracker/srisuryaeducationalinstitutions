@@ -115,28 +115,7 @@ const facultyData: FacultyMember[] = [
     ],
   },
   // end of removed r-prasad
-  {
-    id: "v-padmavathi",
-    name: "Smt. V. Padmavathi",
-    category: "BiPC",
-    subject: "Botany",
-    qualification: "M.Sc., B.Ed.",
-    experience: "13 Years",
-    bio: "A dedicated Botany teacher with 13 years of experience in nurturing future biologists.",
-    detailedBio: "Smt. V. Padmavathi brings 13 years of dedicated teaching experience in Botany. Her nurturing approach and thorough knowledge of plant sciences have helped students develop a deep appreciation for biological sciences.",
-    activities: [
-      "Organized herbarium preparation workshops",
-      "Conducted special classes on plant physiology",
-      "Mentored students for biology competitions",
-      "Developed visual aids for complex botanical concepts",
-    ],
-    achievements: [
-      "13 years of committed Botany education",
-      "Produced excellent results in board examinations",
-      "Students secured top positions in EAPCET Biology",
-      "Appreciated for innovative teaching in plant sciences",
-    ],
-  },
+  // end of removed v-padmavathi
   {
     id: "md-fazil",
     name: "Sri Md. Fazil",
