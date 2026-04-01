@@ -82,28 +82,7 @@ const facultyData: FacultyMember[] = [
   // end of removed k-venkatesh
   // end of removed p-reddy
   // end of removed s-lakshmi
-  {
-    id: "k-krishna-murthy",
-    name: "Sri K. Krishna Murthy",
-    category: "MPC",
-    subject: "Chemistry",
-    qualification: "M.Sc., Ph.D.",
-    experience: "20 Years",
-    bio: "A senior Chemistry faculty with Ph.D. and 20 years of academic excellence.",
-    detailedBio: "Sri K. Krishna Murthy, with a Ph.D. in Chemistry and 20 years of teaching experience, is one of the most senior and respected faculty members. His deep subject expertise and research background bring unparalleled depth to Chemistry education.",
-    activities: [
-      "Led the Chemistry department with academic excellence",
-      "Conducted advanced research-based teaching sessions",
-      "Organized national-level Chemistry quiz competitions",
-      "Mentored junior faculty in effective teaching methodologies",
-    ],
-    achievements: [
-      "20 years of exemplary teaching career in Chemistry",
-      "Produced numerous state-level toppers in Chemistry",
-      "Awarded Best Chemistry Faculty multiple times",
-      "Ph.D. research contributed to innovative teaching practices",
-    ],
-  },
+  // end of removed k-krishna-murthy
   {
     id: "msd-lakshmi-narayana",
     name: "Mr. MSD. Lakshmi Narayana",
