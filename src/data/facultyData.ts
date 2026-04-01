@@ -114,29 +114,7 @@ const facultyData: FacultyMember[] = [
       "Developed innovative teaching methods adopted across departments",
     ],
   },
-  // BiPC
-  {
-    id: "r-prasad",
-    name: "Dr. R. Prasad",
-    category: "BiPC",
-    subject: "Botany",
-    qualification: "M.Sc., Ph.D.",
-    experience: "17 Years",
-    bio: "A Botany expert with Ph.D. and 17 years of teaching experience in biological sciences.",
-    detailedBio: "Dr. R. Prasad is a distinguished Botany faculty member with a Ph.D. and 17 years of teaching experience. His research background and practical approach to Botany education have inspired many students to pursue careers in biological sciences.",
-    activities: [
-      "Conducted botanical field trips and specimen collection drives",
-      "Organized plant identification workshops",
-      "Led research-oriented practical sessions",
-      "Mentored students for NEET Biology preparation",
-    ],
-    achievements: [
-      "17 years of distinguished teaching in Botany",
-      "Guided students to top ranks in NEET Biology section",
-      "Ph.D. research contributions to botanical studies",
-      "Recognized for excellence in biological science education",
-    ],
-  },
+  // end of removed r-prasad
   {
     id: "v-padmavathi",
     name: "Smt. V. Padmavathi",
