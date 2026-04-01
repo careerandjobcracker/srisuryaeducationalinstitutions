@@ -116,28 +116,7 @@ const facultyData: FacultyMember[] = [
   },
   // end of removed r-prasad
   // end of removed v-padmavathi
-  {
-    id: "md-fazil",
-    name: "Sri Md. Fazil",
-    category: "BiPC",
-    subject: "Zoology",
-    qualification: "M.Sc., B.Ed.",
-    experience: "15 Years",
-    bio: "An experienced Zoology educator with 15 years of teaching excellence.",
-    detailedBio: "Sri Md. Fazil is a highly experienced Zoology faculty member with 15 years of teaching excellence. His comprehensive approach to animal sciences covers both theoretical and practical aspects, preparing students thoroughly for competitive examinations.",
-    activities: [
-      "Conducted zoological specimen study sessions",
-      "Organized biology field trips to wildlife sanctuaries",
-      "Special coaching for NEET Zoology preparation",
-      "Developed comparative anatomy study materials",
-    ],
-    achievements: [
-      "15 years of excellence in Zoology education",
-      "Multiple students secured medical college admissions",
-      "Recognized for practical-oriented teaching approach",
-      "Consistently produced top scorers in Zoology",
-    ],
-  },
+  // end of removed md-fazil
   {
     id: "g-sarojini",
     name: "Smt. G. Sarojini",
