@@ -118,7 +118,7 @@ const Footer = () => {
               </h4>
               <iframe
                 title="Sri Surya Junior & Degree College Location"
-                className="w-full h-64 rounded-lg transition-all duration-500"
+                className="w-full h-48 md:h-64 rounded-lg transition-all duration-500"
                 src="https://maps.google.com/maps?q=16.4426119%2C81.7021307&z=17&hl=en&output=embed"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"

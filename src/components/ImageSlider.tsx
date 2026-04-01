@@ -111,13 +111,13 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
       </button>
 
       {/* Dots */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2">
+      <div className="absolute bottom-4 md:bottom-6 left-1/2 -translate-x-1/2 flex gap-1.5 md:gap-2 z-10">
         {slides.map((_, i) => (
           <button
             key={i}
             onClick={() => setCurrent(i)}
-            className={`w-3 h-3 rounded-full transition-all duration-300 ${
-              i === current ? "bg-gold w-8" : "bg-primary-foreground/30"
+            className={`w-2.5 h-2.5 md:w-3 md:h-3 rounded-full transition-all duration-300 ${
+              i === current ? "bg-gold w-6 md:w-8" : "bg-muted-foreground/40"
             }`}
             aria-label={`Slide ${i + 1}`}
           />

@@ -98,7 +98,7 @@ const Index = () => {
               transition={{ duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
             >
               <p className="text-gold font-medium text-sm uppercase tracking-wider mb-2">About Us</p>
-              <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-6">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-display font-bold text-foreground mb-6">
                 Where Ambition Meets Excellence
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
