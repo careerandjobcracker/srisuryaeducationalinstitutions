@@ -71,19 +71,19 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
                   initial={{ y: 30, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ delay: 0.2, duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
-                  className="max-w-2xl space-y-6"
+                  className="max-w-2xl space-y-3 md:space-y-6"
                 >
-                  <h1 className="text-4xl md:text-6xl font-display font-bold text-primary-foreground leading-tight">
+                  <h1 className="text-2xl sm:text-4xl md:text-6xl font-display font-bold text-primary-foreground leading-tight">
                     {slides[current].title}
                   </h1>
-                  <p className="text-lg md:text-xl text-primary-foreground/80">
+                  <p className="text-sm sm:text-lg md:text-xl text-primary-foreground/80 leading-relaxed">
                     {slides[current].subtitle}
                   </p>
-                  <div className="flex gap-4">
-                    <a href="/contact" className="px-8 py-3 bg-gold text-accent-foreground rounded-md font-semibold hover:opacity-90 transition-opacity">
+                  <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+                    <a href="/contact" className="px-6 sm:px-8 py-2.5 sm:py-3 bg-gold text-accent-foreground rounded-md font-semibold hover:opacity-90 transition-opacity text-sm sm:text-base text-center">
                       Apply Now
                     </a>
-                    <a href="/about" className="px-8 py-3 border border-primary-foreground/30 text-primary-foreground rounded-md font-semibold hover:bg-primary-foreground/10 transition-colors">
+                    <a href="/about" className="px-6 sm:px-8 py-2.5 sm:py-3 border border-primary-foreground/30 text-primary-foreground rounded-md font-semibold hover:bg-primary-foreground/10 transition-colors text-sm sm:text-base text-center">
                       Learn More
                     </a>
                   </div>
