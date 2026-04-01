@@ -21,7 +21,7 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
   }, [next]);
 
   return (
-    <div className="relative w-full min-h-[70vh] overflow-hidden">
+    <div className="relative w-full min-h-[60vh] md:min-h-[70vh] overflow-hidden">
       <AnimatePresence mode="wait">
         <motion.div
           key={current}
