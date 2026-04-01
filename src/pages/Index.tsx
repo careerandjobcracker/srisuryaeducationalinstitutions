@@ -132,7 +132,7 @@ const Index = () => {
             title="Programs We Offer"
             subtitle="Comprehensive intermediate and degree programs designed to prepare students for competitive exams and successful careers."
           />
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {courses.map((course, i) => (
               <motion.div
                 key={course.title}
