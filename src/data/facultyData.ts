@@ -78,28 +78,7 @@ const facultyData: FacultyMember[] = [
       "Awarded for outstanding contributions to Mathematics education",
     ],
   },
-  {
-    id: "m-prakash",
-    name: "Sri M. Prakash",
-    category: "MPC",
-    subject: "Mathematics",
-    qualification: "M.Sc., B.Ed.",
-    experience: "15 Years",
-    bio: "An experienced Mathematics teacher known for making complex concepts accessible to all students.",
-    detailedBio: "Sri M. Prakash brings 15 years of teaching excellence in Mathematics. His unique teaching methodology focuses on building strong fundamentals and problem-solving skills essential for competitive examinations.",
-    activities: [
-      "Special doubt-clearing sessions for weak students",
-      "Developed practice question banks for board exams",
-      "Conducted weekend workshops on advanced Mathematics topics",
-      "Active participation in curriculum development",
-    ],
-    achievements: [
-      "Consistently produced 90%+ results in board examinations",
-      "Mentored students who secured top ranks in EAPCET",
-      "Recognized for innovative teaching methods",
-      "15 years of dedicated service in Mathematics education",
-    ],
-  },
+  // end of removed m-prakash
   {
     id: "k-venkatesh",
     name: "Sri K. Venkatesh",
