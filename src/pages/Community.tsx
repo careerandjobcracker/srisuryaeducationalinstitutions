@@ -94,10 +94,10 @@ const Community = () => {
                     <span className="text-gold font-display font-bold text-sm">{post.author[0]}</span>
                   </div>
                   <div className="flex-1">
-                    <div className="flex items-center gap-2 mb-1">
-                      <span className="font-display font-semibold text-foreground text-sm">{post.author}</span>
-                      <span className="text-gold text-xs uppercase tracking-wider">{post.role}</span>
-                      <span className="text-muted-foreground text-xs ml-auto">{post.time}</span>
+                    <div className="flex flex-wrap items-center gap-1 sm:gap-2 mb-1">
+                      <span className="font-display font-semibold text-foreground text-xs sm:text-sm">{post.author}</span>
+                      <span className="text-gold text-[10px] sm:text-xs uppercase tracking-wider">{post.role}</span>
+                      <span className="text-muted-foreground text-[10px] sm:text-xs sm:ml-auto">{post.time}</span>
                     </div>
                     <p className="text-foreground text-sm leading-relaxed mb-3">{post.content}</p>
                     <div className="flex gap-4 text-xs text-muted-foreground">

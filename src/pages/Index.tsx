@@ -98,7 +98,7 @@ const Index = () => {
               transition={{ duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
             >
               <p className="text-gold font-medium text-sm uppercase tracking-wider mb-2">About Us</p>
-              <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-6">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-display font-bold text-foreground mb-6">
                 Where Ambition Meets Excellence
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
@@ -132,7 +132,7 @@ const Index = () => {
             title="Programs We Offer"
             subtitle="Comprehensive intermediate and degree programs designed to prepare students for competitive exams and successful careers."
           />
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {courses.map((course, i) => (
               <motion.div
                 key={course.title}
@@ -194,10 +194,10 @@ const Index = () => {
       {/* CTA */}
       <section className="py-20 bg-gold">
         <div className="container text-center">
-          <h2 className="text-3xl md:text-4xl font-display font-bold text-accent-foreground mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-display font-bold text-accent-foreground mb-4">
             Ready to Shape Your Future?
           </h2>
-          <p className="text-accent-foreground/80 text-lg mb-8 max-w-xl mx-auto">
+          <p className="text-accent-foreground/80 text-sm sm:text-lg mb-8 max-w-xl mx-auto px-4">
             Join Sri Surya Educational Institutions and become part of a legacy of excellence.
           </p>
           <Link

@@ -54,7 +54,7 @@ const Footer = () => {
             <div className="space-y-3 text-sm text-primary-foreground/70">
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5 text-gold shrink-0" />
-                <p>5-1-57, 1st Ward, Sriharipeta, Near APSRTC Bus Complex, Narsapuram - 534275, W.G.Dt, AP</p>
+                <p className="break-words">5-1-57, 1st Ward, Sriharipeta, Near APSRTC Bus Complex, Narsapuram - 534275, W.G.Dt, AP</p>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-gold shrink-0" />
@@ -65,7 +65,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-gold shrink-0" />
-                <p>srisuryacollegensp@gmail.com</p>
+                <p className="break-all">srisuryacollegensp@gmail.com</p>
               </div>
               <div className="flex items-center gap-2">
                 <Clock className="w-4 h-4 text-gold shrink-0" />
@@ -105,7 +105,7 @@ const Footer = () => {
               </h4>
               <iframe
                 title="Sri Surya High School Location"
-                className="w-full h-64 rounded-lg grayscale hover:grayscale-0 transition-all duration-500"
+                className="w-full h-48 md:h-64 rounded-lg grayscale hover:grayscale-0 transition-all duration-500"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3823.5!2d81.69!3d16.44!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTbCsDI2JzI0LjAiTiA4McKwNDEnMjQuMCJF!5e0!3m2!1sen!2sin!4v1"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
@@ -118,7 +118,7 @@ const Footer = () => {
               </h4>
               <iframe
                 title="Sri Surya Junior & Degree College Location"
-                className="w-full h-64 rounded-lg transition-all duration-500"
+                className="w-full h-48 md:h-64 rounded-lg transition-all duration-500"
                 src="https://maps.google.com/maps?q=16.4426119%2C81.7021307&z=17&hl=en&output=embed"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
