@@ -118,28 +118,7 @@ const facultyData: FacultyMember[] = [
   // end of removed v-padmavathi
   // end of removed md-fazil
   // end of removed g-sarojini
-  {
-    id: "b-ravi-kumar",
-    name: "Sri B. Ravi Kumar",
-    category: "BiPC",
-    subject: "Chemistry",
-    qualification: "M.Sc., B.Ed.",
-    experience: "14 Years",
-    bio: "A Chemistry faculty specializing in BiPC stream with 14 years of teaching experience.",
-    detailedBio: "Sri B. Ravi Kumar is a dedicated Chemistry faculty member in the BiPC stream with 14 years of teaching experience. He specializes in preparing students for medical entrance examinations with a focus on Chemistry fundamentals.",
-    activities: [
-      "Specialized Chemistry coaching for NEET aspirants",
-      "Conducted practical lab sessions for BiPC students",
-      "Organized Chemistry quiz competitions",
-      "Developed study materials tailored for medical entrance exams",
-    ],
-    achievements: [
-      "14 years of dedicated Chemistry teaching for BiPC stream",
-      "Produced top scorers in NEET Chemistry section",
-      "Consistently excellent board exam results",
-      "Appreciated for making Chemistry accessible to all students",
-    ],
-  },
+  // end of removed b-ravi-kumar
   {
     id: "msd-lakshmi-narayana-bipc",
     name: "Mr. MSD. Lakshmi Narayana",
