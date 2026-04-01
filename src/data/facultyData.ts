@@ -81,28 +81,7 @@ const facultyData: FacultyMember[] = [
   // end of removed m-prakash
   // end of removed k-venkatesh
   // end of removed p-reddy
-  {
-    id: "s-lakshmi",
-    name: "Smt. S. Lakshmi",
-    category: "MPC",
-    subject: "Chemistry",
-    qualification: "M.Sc., B.Ed.",
-    experience: "12 Years",
-    bio: "A passionate Chemistry teacher with 12 years of experience in guiding students through competitive exams.",
-    detailedBio: "Smt. S. Lakshmi is a passionate Chemistry educator with 12 years of teaching experience. Her student-centric approach and dedication to excellence have helped numerous students achieve their academic goals.",
-    activities: [
-      "Organized Chemistry lab practical sessions",
-      "Conducted special classes on Organic Chemistry for JEE",
-      "Mentored students for Chemistry Olympiads",
-      "Developed easy-to-understand notes for complex reactions",
-    ],
-    achievements: [
-      "Produced excellent results in Chemistry board examinations",
-      "Students achieved top percentiles in EAPCET Chemistry",
-      "Recognized for student-friendly teaching approach",
-      "12 years of dedicated service in Chemistry education",
-    ],
-  },
+  // end of removed s-lakshmi
   {
     id: "k-krishna-murthy",
     name: "Sri K. Krishna Murthy",
