@@ -10,7 +10,7 @@ const SectionHeading = ({ label, title, subtitle, light }: SectionHeadingProps) 
     {label && (
       <p className="text-gold font-medium text-sm uppercase tracking-wider mb-2">{label}</p>
     )}
-    <h2 className={`text-3xl md:text-4xl font-display font-bold ${light ? "text-primary-foreground" : "text-foreground"}`}>
+    <h2 className={`text-2xl sm:text-3xl md:text-4xl font-display font-bold ${light ? "text-primary-foreground" : "text-foreground"}`}>
       {title}
     </h2>
     {subtitle && (
