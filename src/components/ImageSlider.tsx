@@ -32,41 +32,27 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
           className="absolute inset-0"
         >
           {slides[current].centerImage ? (
-            <div className="w-full h-full flex bg-white">
-              {/* Left side - Text content */}
-              <div className="absolute inset-0 flex items-center z-10">
-                <div className="container">
-                  <motion.div
-                    initial={{ y: 30, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: 0.2, duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
-                    className="max-w-md space-y-6"
-                  >
-                    <h1 className="text-4xl md:text-5xl font-display font-bold text-primary leading-tight">
-                      {slides[current].title}
-                    </h1>
-                    <p className="text-lg md:text-xl text-muted-foreground">
-                      {slides[current].subtitle}
-                    </p>
-                    <div className="flex gap-4">
-                      <a href="/contact" className="px-8 py-3 bg-primary text-primary-foreground rounded-md font-semibold hover:opacity-90 transition-opacity">
-                        Apply Now
-                      </a>
-                      <a href="/about" className="px-8 py-3 border border-primary/30 text-primary rounded-md font-semibold hover:bg-primary/10 transition-colors">
-                        Learn More
-                      </a>
-                    </div>
-                  </motion.div>
-                </div>
-              </div>
-              {/* Right side - Logo image */}
-              <div className="absolute right-0 top-0 w-1/2 h-full flex items-center justify-center p-8">
+            <div className="w-full h-full flex flex-col items-center justify-center bg-white px-4">
+              <div className="flex-1 flex items-center justify-center pt-8">
                 <img
                   src={slides[current].image}
                   alt={slides[current].title}
-                  className="max-w-full max-h-full object-contain rounded-xl shadow-elevated"
+                  className="max-h-[50vh] md:max-h-[55vh] object-contain rounded-xl shadow-elevated"
                 />
               </div>
+              <motion.div
+                initial={{ y: 20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: 0.2, duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
+                className="text-center pb-12 pt-4 space-y-2"
+              >
+                <h1 className="text-2xl md:text-4xl font-display font-bold text-primary leading-tight">
+                  {slides[current].title}
+                </h1>
+                <p className="text-sm md:text-lg text-muted-foreground">
+                  {slides[current].subtitle}
+                </p>
+              </motion.div>
             </div>
           ) : (
             <>
