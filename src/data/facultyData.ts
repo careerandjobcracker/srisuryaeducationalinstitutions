@@ -117,28 +117,7 @@ const facultyData: FacultyMember[] = [
   // end of removed r-prasad
   // end of removed v-padmavathi
   // end of removed md-fazil
-  {
-    id: "g-sarojini",
-    name: "Smt. G. Sarojini",
-    category: "BiPC",
-    subject: "Zoology",
-    qualification: "M.Sc., M.Phil.",
-    experience: "11 Years",
-    bio: "A Zoology educator with M.Phil. research background and 11 years of teaching experience.",
-    detailedBio: "Smt. G. Sarojini combines her M.Phil. research expertise with 11 years of classroom teaching to deliver engaging Zoology education. Her analytical teaching approach helps students understand complex animal biology concepts effectively.",
-    activities: [
-      "Research-based teaching methodology in Zoology",
-      "Conducted dissection and practical sessions",
-      "Mentored students for biology Olympiads",
-      "Developed simplified notes for complex Zoology topics",
-    ],
-    achievements: [
-      "11 years of dedicated Zoology teaching",
-      "Students achieved top scores in NEET Zoology",
-      "M.Phil. research enhancing teaching quality",
-      "Recognized for student-centric teaching methods",
-    ],
-  },
+  // end of removed g-sarojini
   {
     id: "b-ravi-kumar",
     name: "Sri B. Ravi Kumar",
