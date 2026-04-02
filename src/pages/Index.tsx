@@ -10,6 +10,7 @@ import heroStudents from "@/assets/hero-students.jpg";
 import heroLab from "@/assets/hero-lab.jpg";
 import logoNew from "@/assets/logo-new.jpg";
 import correspondentSir from "@/assets/correspondent-sir.jpeg";
+import sriSuryaSchool from "@/assets/Sri_Surya_High_School.jpeg";
 
 const heroSlides = [
   { image: logoNew, title: "Sri Surya Junior & Degree College", subtitle: "To Search For Bright - Narasapur", centerImage: true },
@@ -123,7 +124,7 @@ const Index = () => {
               transition={{ duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
               className="rounded-2xl overflow-hidden shadow-elevated"
             >
-              <img src={heroCampus} alt="Sri Surya Campus" className="w-full h-80 object-cover" />
+              <img src={sriSuryaSchool} alt="Sri Surya Campus" className="w-full h-80 object-cover" />
             </motion.div>
           </div>
         </div>
