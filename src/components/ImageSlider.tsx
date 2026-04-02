@@ -5,8 +5,10 @@ import { motion, AnimatePresence } from "framer-motion";
 interface Slide {
   image: string;
   title: string;
-  subtitle: string;
+  subtitle?: string;
   centerImage?: boolean;
+  duration?: number;
+  titleOnTop?: boolean;
 }
 
 const ImageSlider = ({ slides }: { slides: Slide[] }) => {
@@ -16,9 +18,10 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
   const prev = () => setCurrent((c) => (c - 1 + slides.length) % slides.length);
 
   useEffect(() => {
-    const timer = setInterval(next, 5000);
+    const duration = slides[current]?.duration || 5000;
+    const timer = setInterval(next, duration);
     return () => clearInterval(timer);
-  }, [next]);
+  }, [next, current, slides]);
 
   return (
     <div className="relative w-full min-h-[60vh] md:min-h-[70vh] overflow-hidden">
@@ -49,10 +52,37 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
                 <h1 className="text-xl md:text-4xl font-display font-bold text-primary leading-tight">
                   {slides[current].title}
                 </h1>
-                <p className="text-xs md:text-lg text-muted-foreground">
-                  {slides[current].subtitle}
-                </p>
+                {slides[current].subtitle && (
+                  <p className="text-xs md:text-lg text-muted-foreground">
+                    {slides[current].subtitle}
+                  </p>
+                )}
               </motion.div>
+            </div>
+          ) : slides[current].titleOnTop ? (
+            <div className="w-full h-full flex flex-col bg-white">
+              <motion.div
+                initial={{ y: -20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: 0.2, duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
+                className="text-center pt-6 md:pt-10 pb-3 md:pb-6 px-4"
+              >
+                <h1 className="text-2xl md:text-5xl font-display font-bold text-primary leading-tight">
+                  {slides[current].title}
+                </h1>
+                {slides[current].subtitle && (
+                  <p className="text-sm md:text-lg text-muted-foreground mt-2">
+                    {slides[current].subtitle}
+                  </p>
+                )}
+              </motion.div>
+              <div className="flex-1 overflow-hidden">
+                <img
+                  src={slides[current].image}
+                  alt={slides[current].title}
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </div>
           ) : (
             <>
