@@ -105,11 +105,19 @@ const Footer = () => {
               </h4>
               <iframe
                 title="Sri Surya High School Location"
-                className="w-full h-48 md:h-64 rounded-lg grayscale hover:grayscale-0 transition-all duration-500"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3823.5!2d81.69!3d16.44!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTbCsDI2JzI0LjAiTiA4McKwNDEnMjQuMCJF!5e0!3m2!1sen!2sin!4v1"
+                className="w-full h-48 md:h-64 rounded-lg transition-all duration-500"
+                src="https://maps.google.com/maps?q=16.4357613%2C81.6998809&z=17&hl=en&output=embed"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
+              <a
+                href="https://maps.google.com/maps?q=16.4357613%2C81.6998809&z=17&hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm text-gold hover:underline"
+              >
+                <MapPin className="w-3.5 h-3.5" /> Open in Google Maps
+              </a>
             </div>
             <div className="space-y-3">
               <h4 className="font-display font-semibold flex items-center gap-2">
