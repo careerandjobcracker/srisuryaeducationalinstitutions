@@ -25,7 +25,7 @@ const heroSlides = [
 const campusVideos = [
   { id: "qHXVrlLsUho", key: "campus-tour", title: "Sri Surya Educational Institutions" },
   { id: "hrwNSjsjcgg", key: "annual-day", title: "Students Feedback" },
-  { id: "hrwNSjsjcgg", key: "lab-facilities", title: "Laboratory & Academic Facilities" },
+  { id: "hrwNSjsjcgg", key: "lab-facilities", title: "Inspirational" },
 ];
 
 const stats = [
