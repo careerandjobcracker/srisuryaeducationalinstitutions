@@ -19,7 +19,7 @@ const heroSlides = [
   { image: heroCampus, title: "Building Future Leaders", subtitle: "Sri Surya Educational Institutions: Empowering students in Narasapuram with a legacy of top ranks and holistic development." },
   { image: heroStudents, title: "Academic Excellence in West Godavari", subtitle: "Consistently producing top rankers in Board Exams, EAMCET, and NEET with dedicated faculty and modern facilities." },
   { image: heroLab, title: "World-Class Facilities", subtitle: "State-of-the-art laboratories, smart classrooms, and a supportive learning environment for every student." },
-  { image: sriSuryaHighSchool, title: "Sri Surya High School, Narasapuram", titleOnTop: true, duration: 8000 },
+  { image: sriSuryaHighSchool, title: "Sri Surya High School, Narasapuram", duration: 8000 },
 ];
 
 const campusVideos = [
