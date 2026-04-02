@@ -33,17 +33,17 @@ const stats = [
 ];
 
 const courses = [
+  { title: "IIT Foundation", desc: "Early foundation program for 8th & 9th class students aspiring for IIT-JEE", icon: "🚀" },
+  { title: "NEET", desc: "Dedicated coaching for National Eligibility cum Entrance Test with expert faculty and regular mock tests", icon: "🩺" },
+  { title: "JEE", desc: "Intensive preparation for Joint Entrance Examination with advanced problem-solving and top-rank strategies", icon: "⚙️" },
   { title: "MPC", desc: "Mathematics, Physics & Chemistry – Gateway to Engineering & Technology", icon: "🔬" },
   { title: "BiPC", desc: "Biology, Physics & Chemistry – Foundation for Medical & Life Sciences", icon: "🧬" },
   { title: "CEC", desc: "Civics, Economics & Commerce – Path to Law, Business & Administration", icon: "📊" },
   { title: "MEC", desc: "Mathematics, Economics & Commerce – Bridge to Finance & Management", icon: "💼" },
   { title: "HEC", desc: "History, Economics & Civics – Path to Civil Services & Humanities", icon: "📜" },
-  { title: "IIT Foundation", desc: "Early foundation program for 8th & 9th class students aspiring for IIT-JEE", icon: "🚀" },
   { title: "B.Com Honours", desc: "Bachelor of Commerce with Computer Applications specialization", icon: "💻" },
   { title: "B.Sc Honours", desc: "Multiple specializations: Computer Science, Mathematics, Data Science, Agriculture, BioTechnology & Chemistry", icon: "🖥️" },
   { title: "Vocational", desc: "Job-oriented courses – MPHW (Female) & Computer Science Engineering", icon: "🛠️" },
-  { title: "NEET", desc: "Dedicated coaching for National Eligibility cum Entrance Test with expert faculty and regular mock tests", icon: "🩺" },
-  { title: "JEE", desc: "Intensive preparation for Joint Entrance Examination with advanced problem-solving and top-rank strategies", icon: "⚙️" },
 ];
 
 const testimonials = [
