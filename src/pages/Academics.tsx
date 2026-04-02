@@ -11,6 +11,27 @@ const fadeUp = {
 
 const programs = [
   {
+    title: "IIT Foundation for 8th & 9th Class",
+    stream: "Foundation Program",
+    description: "Our IIT Foundation program for 8th and 9th class students builds a strong base in Mathematics, Physics, and Chemistry from an early age. The program develops analytical thinking, problem-solving skills, and exam temperament to give students a head start in their journey toward IIT-JEE success.",
+    exams: ["NTSE", "Olympiads", "JEE Foundation", "Scholarship Exams", "Science Talent Search"],
+    icon: "🚀",
+  },
+  {
+    title: "NEET – National Eligibility cum Entrance Test",
+    stream: "Competitive Exam Coaching",
+    description: "Our dedicated NEET coaching program provides intensive preparation in Biology, Physics, and Chemistry with experienced faculty, daily practice sessions, comprehensive study material, and regular full-length mock tests to help students secure top ranks and gain admission into prestigious medical colleges.",
+    exams: ["MBBS", "BDS", "BAMS", "BHMS", "Veterinary Sciences"],
+    icon: "🩺",
+  },
+  {
+    title: "JEE – Joint Entrance Examination",
+    stream: "Competitive Exam Coaching",
+    description: "Our JEE coaching program offers rigorous training in Mathematics, Physics, and Chemistry with a focus on advanced problem-solving, concept clarity, and exam strategies. Students benefit from expert faculty, topic-wise tests, and personalized mentoring to crack JEE Main & Advanced.",
+    exams: ["IITs", "NITs", "IIITs", "CFTIs", "State Engineering Colleges"],
+    icon: "⚙️",
+  },
+  {
     title: "MPC – Mathematics, Physics & Chemistry",
     stream: "Junior College",
     description: "The MPC stream is designed for students who aspire to build strong careers in engineering, technology, architecture, defence services, and scientific research. The program focuses on strengthening analytical thinking, logical reasoning, and problem-solving abilities through a well-structured curriculum and experienced faculty guidance.",
@@ -44,13 +65,6 @@ const programs = [
     description: "HEC is ideal for students interested in humanities, social sciences, and public administration. It provides a strong foundation in history, economics, and civics, preparing students for careers in civil services, law, journalism, and social work.",
     exams: ["Civil Services", "CLAT", "Journalism Entrances", "BA Programs", "Social Work"],
     icon: "📜",
-  },
-  {
-    title: "IIT Foundation for 8th & 9th Class",
-    stream: "Foundation Program",
-    description: "Our IIT Foundation program for 8th and 9th class students builds a strong base in Mathematics, Physics, and Chemistry from an early age. The program develops analytical thinking, problem-solving skills, and exam temperament to give students a head start in their journey toward IIT-JEE success.",
-    exams: ["NTSE", "Olympiads", "JEE Foundation", "Scholarship Exams", "Science Talent Search"],
-    icon: "🚀",
   },
   {
     title: "B.Com Honours (Computer Applications)",
@@ -121,20 +135,6 @@ const programs = [
     description: "The B.Sc program offers specializations in Mathematics, Physics, Chemistry, and Computer Science, providing a strong scientific foundation for higher studies and research.",
     exams: ["M.Sc", "Research", "Teaching", "IT Industry", "Government Jobs"],
     icon: "🔭",
-  },
-  {
-    title: "NEET – National Eligibility cum Entrance Test",
-    stream: "Competitive Exam Coaching",
-    description: "Our dedicated NEET coaching program provides intensive preparation in Biology, Physics, and Chemistry with experienced faculty, daily practice sessions, comprehensive study material, and regular full-length mock tests to help students secure top ranks and gain admission into prestigious medical colleges.",
-    exams: ["MBBS", "BDS", "BAMS", "BHMS", "Veterinary Sciences"],
-    icon: "🩺",
-  },
-  {
-    title: "JEE – Joint Entrance Examination",
-    stream: "Competitive Exam Coaching",
-    description: "Our JEE coaching program offers rigorous training in Mathematics, Physics, and Chemistry with a focus on advanced problem-solving, concept clarity, and exam strategies. Students benefit from expert faculty, topic-wise tests, and personalized mentoring to crack JEE Main & Advanced.",
-    exams: ["IITs", "NITs", "IIITs", "CFTIs", "State Engineering Colleges"],
-    icon: "⚙️",
   },
 ];
 
