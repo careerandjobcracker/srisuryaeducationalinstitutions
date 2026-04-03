@@ -9,7 +9,7 @@ const eventVideos = [
   { id: "brVFoPNVo5o", title: "Sri Surya College Event Highlights" },
   { id: "ExAitf3kXtA", title: "Annual Day Celebrations" },
   { id: "YirgIOo3Opg", title: "Cultural Fest Moments" },
-  { id: "0Ld9qPRx1XY", title: "Sports Day & Activities" },
+  { id: "0Ld9qPRx1XY", title: "Farewell Party 2022" },
   { id: "bb06Bl5mz64", title: "Student Achievements Ceremony" },
 ];
 
