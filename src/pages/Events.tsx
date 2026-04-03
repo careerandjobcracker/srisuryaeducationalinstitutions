@@ -36,6 +36,8 @@ const Events = () => (
       </div>
     </div>
 
+    <EventVideoSlider videos={eventVideos} title="Sri Surya Educational Institutions College Events" />
+
     <section className="py-20 bg-background">
       <div className="container max-w-4xl">
         <SectionHeading label="What's Happening" title="Events & Activities" subtitle="Stay updated with the latest events, celebrations, and academic activities" />
