@@ -1,8 +1,17 @@
 import Layout from "@/components/Layout";
 import SectionHeading from "@/components/SectionHeading";
+import EventVideoSlider from "@/components/EventVideoSlider";
 import { motion } from "framer-motion";
 import { Calendar, MapPin, Clock } from "lucide-react";
 import heroStudents from "@/assets/hero-students.jpg";
+
+const eventVideos = [
+  { id: "brVFoPNVo5o", title: "Sri Surya College Event Highlights" },
+  { id: "ExAitf3kXtA", title: "Annual Day Celebrations" },
+  { id: "YirgIOo3Opg", title: "Cultural Fest Moments" },
+  { id: "0Ld9qPRx1XY", title: "Sports Day & Activities" },
+  { id: "bb06Bl5mz64", title: "Student Achievements Ceremony" },
+];
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
