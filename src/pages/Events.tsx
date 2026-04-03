@@ -6,7 +6,7 @@ import { Calendar, MapPin, Clock } from "lucide-react";
 import heroStudents from "@/assets/hero-students.jpg";
 
 const eventVideos = [
-  { id: "brVFoPNVo5o", title: "Sri Surya College Event Highlights" },
+  { id: "brVFoPNVo5o", title: "Teachers Day Celebrations in 2026" },
   { id: "ExAitf3kXtA", title: "Annual Day Celebrations" },
   { id: "YirgIOo3Opg", title: "Teachers Day Celebrations in 2023" },
   { id: "0Ld9qPRx1XY", title: "Farewell Party 2022" },
