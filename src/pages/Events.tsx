@@ -8,7 +8,7 @@ import heroStudents from "@/assets/hero-students.jpg";
 const eventVideos = [
   { id: "brVFoPNVo5o", title: "Sri Surya College Event Highlights" },
   { id: "ExAitf3kXtA", title: "Annual Day Celebrations" },
-  { id: "YirgIOo3Opg", title: "Cultural Fest Moments" },
+  { id: "YirgIOo3Opg", title: "Teachers Day Celebrations in 2023" },
   { id: "0Ld9qPRx1XY", title: "Farewell Party 2022" },
   { id: "bb06Bl5mz64", title: "Student Achievements Ceremony" },
 ];
