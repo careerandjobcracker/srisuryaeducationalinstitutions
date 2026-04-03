@@ -7,7 +7,7 @@ import heroStudents from "@/assets/hero-students.jpg";
 
 const eventVideos = [
   { id: "brVFoPNVo5o", title: "Teachers Day Celebrations in 2026" },
-  { id: "ExAitf3kXtA", title: "Annual Day Celebrations" },
+  { id: "ExAitf3kXtA", title: "Sankranti Festival Celebrations in 2024" },
   { id: "YirgIOo3Opg", title: "Teachers Day Celebrations in 2023" },
   { id: "0Ld9qPRx1XY", title: "Farewell Party 2022" },
   { id: "bb06Bl5mz64", title: "Student Achievements Ceremony" },
