@@ -53,7 +53,7 @@ const Faculty = () => {
       {/* Faculty ID Card Slider */}
       <section className="py-12 bg-background">
         <div className="container">
-          <SectionHeading label="Our Team" title="Faculty Identity Cards" subtitle="" />
+          <SectionHeading label="Our Team" title="Sri Surya Faculty Team" subtitle="" />
         </div>
         <ImageSlider slides={facultyIdSlides} />
       </section>
