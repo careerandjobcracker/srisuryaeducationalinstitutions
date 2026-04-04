@@ -50,6 +50,14 @@ const Faculty = () => {
         </div>
       </div>
 
+      {/* Faculty ID Card Slider */}
+      <section className="py-12 bg-background">
+        <div className="container">
+          <SectionHeading label="Our Team" title="Faculty Identity Cards" subtitle="" />
+        </div>
+        <ImageSlider slides={facultyIdSlides} />
+      </section>
+
       <section className="py-20 bg-background">
         <div className="container">
           <SectionHeading label="Expert Educators" title="Meet Our Distinguished Faculty" subtitle="Dedicated teachers with decades of experience committed to student success" />
