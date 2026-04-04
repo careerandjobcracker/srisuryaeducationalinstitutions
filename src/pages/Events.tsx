@@ -40,6 +40,7 @@ const Events = () => (
       </div>
     </div>
 
+    <EventVideoSlider videos={liveVideo} title="Sri Surya Educational Institutions Annual Day Celebrations 2026" />
     <EventVideoSlider videos={eventVideos} title="Sri Surya Educational Institutions  Events" />
 
     <section className="py-20 bg-background">
