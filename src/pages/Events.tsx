@@ -41,7 +41,7 @@ const Events = () => (
     </div>
 
     <EventVideoSlider videos={liveVideo} title="LIVE - Sri Surya Educational Institutions Annual Day Celebrations 2026" />
-    <EventVideoSlider videos={eventVideos} title="LIVE - Sri Surya Educational Institutions  Events" />
+    <EventVideoSlider videos={eventVideos} title="Sri Surya Educational Institutions  Events" />
 
     <section className="py-20 bg-background">
       <div className="container max-w-4xl">
