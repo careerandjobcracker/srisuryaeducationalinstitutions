@@ -12,6 +12,11 @@ import logoNew from "@/assets/logo-new.jpg";
 import correspondentSir from "@/assets/correspondent-sir.jpeg";
 import sriSuryaSchool from "@/assets/Sri_Surya_High_School.jpeg";
 import sriSuryaHighSchool from "@/assets/sri-surya-high-school-building.jpeg";
+import pomplate1 from "@/assets/pomplate-1.jpeg";
+import pomplate2 from "@/assets/pomplate-2.jpeg";
+import pomplate3 from "@/assets/pomplate-3.jpeg";
+import pomplate4 from "@/assets/pomplate-4.jpeg";
+import pomplate5 from "@/assets/pomplate-5.jpeg";
 
 const heroSlides = [
   { image: logoNew, title: "Sri Surya Junior & Degree College", subtitle: "To Search For Bright - Narasapur", centerImage: true },
@@ -20,6 +25,11 @@ const heroSlides = [
   { image: heroStudents, title: "Academic Excellence in West Godavari", subtitle: "Consistently producing top rankers in Board Exams, EAMCET, and NEET with dedicated faculty and modern facilities." },
   { image: heroLab, title: "World-Class Facilities", subtitle: "State-of-the-art laboratories, smart classrooms, and a supportive learning environment for every student." },
   { image: sriSuryaHighSchool, title: "Sri Surya High School", subtitle: "Narasapuram", duration: 8000 },
+  { image: pomplate1, title: "EAPCET 2025 Top Rankers", subtitle: "Sri Surya - Always Number One in Narasapuram", centerImage: true, duration: 8000 },
+  { image: pomplate2, title: "Board Exam Toppers - MPC", subtitle: "Sensational Results by Sri Surya Students", centerImage: true, duration: 8000 },
+  { image: pomplate3, title: "Pratibha Award Winner", subtitle: "Andhra Pradesh State Government Recognition", centerImage: true, duration: 8000 },
+  { image: pomplate4, title: "Sri Surya E.M. High School Toppers", subtitle: "SSC Results - Quality Education Leaders", centerImage: true, duration: 8000 },
+  { image: pomplate5, title: "Sri Surya Degree College Rankers", subtitle: "Felicitation of Top Performers", centerImage: true, duration: 8000 },
 ];
 
 const campusVideos = [
