@@ -6,7 +6,7 @@ import { Calendar, MapPin, Clock } from "lucide-react";
 import heroStudents from "@/assets/hero-students.jpg";
 
 const liveVideo = [
-  { id: "GEym_3dPh40", title: "Sri Surya Educational Institutions Annual Day Celebrations 2026" },
+  { id: "GEym_3dPh40", title: "LIVE - Sri Surya Educational Institutions Annual Day Celebrations 2026" },
 ];
 
 const eventVideos = [
