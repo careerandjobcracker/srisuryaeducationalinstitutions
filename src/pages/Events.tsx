@@ -5,6 +5,10 @@ import { motion } from "framer-motion";
 import { Calendar, MapPin, Clock } from "lucide-react";
 import heroStudents from "@/assets/hero-students.jpg";
 
+const liveVideo = [
+  { id: "GEym_3dPh40", title: "Sri Surya Educational Institutions Annual Day Celebrations 2026" },
+];
+
 const eventVideos = [
   { id: "brVFoPNVo5o", title: "Teachers Day Celebrations in 2026" },
   { id: "ExAitf3kXtA", title: "Sankranti Festival Celebrations in 2024" },
