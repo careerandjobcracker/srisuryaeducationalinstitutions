@@ -1,10 +1,34 @@
 import Layout from "@/components/Layout";
 import SectionHeading from "@/components/SectionHeading";
+import ImageSlider from "@/components/ImageSlider";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import heroCampus from "@/assets/hero-campus.jpg";
 import facultyData, { categories } from "@/data/facultyData";
+import idVasu from "@/assets/faculty-id-vasu.jpeg";
+import idKesava from "@/assets/faculty-id-kesava.jpeg";
+import idPrakash from "@/assets/faculty-id-prakash.jpeg";
+import idLakshmiNarayana from "@/assets/faculty-id-lakshmi-narayana.jpeg";
+import idSivaji from "@/assets/faculty-id-sivaji.jpeg";
+import idRamachandraReddy from "@/assets/faculty-id-ramachandra-reddy.jpeg";
+import idVenuGopal from "@/assets/faculty-id-venu-gopal.jpeg";
+import idNagaMani from "@/assets/faculty-id-naga-mani.jpeg";
+import idVasanthi from "@/assets/faculty-id-vasanthi.jpeg";
+import idMounika from "@/assets/faculty-id-mounika.jpeg";
+
+const facultyIdSlides = [
+  { image: idVasu, title: "K. Vasu", subtitle: "Lecturer in Mathematics", centerImage: true, duration: 8000 },
+  { image: idKesava, title: "A. Kesava", subtitle: "Lecturer in Computer Science", centerImage: true, duration: 8000 },
+  { image: idPrakash, title: "N. Prakash", subtitle: "Lecturer in Mathematics", centerImage: true, duration: 8000 },
+  { image: idLakshmiNarayana, title: "K.S.D. Lakshminarayana", subtitle: "Lecturer in Chemistry", centerImage: true, duration: 8000 },
+  { image: idSivaji, title: "A. Sivaji", subtitle: "Lecturer in Biology", centerImage: true, duration: 8000 },
+  { image: idRamachandraReddy, title: "B. Ramachandra Reddy", subtitle: "Lecturer in Mathematics", centerImage: true, duration: 8000 },
+  { image: idVenuGopal, title: "S. Venu Gopal", subtitle: "Lecturer in Mathematics", centerImage: true, duration: 8000 },
+  { image: idNagaMani, title: "V. Nagamani", subtitle: "Lecturer in Physics", centerImage: true, duration: 8000 },
+  { image: idVasanthi, title: "G. Vasanthi", subtitle: "Lecturer in Mathematics", centerImage: true, duration: 8000 },
+  { image: idMounika, title: "M. Mounika", subtitle: "Lecturer in Chemistry", centerImage: true, duration: 8000 },
+];
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
