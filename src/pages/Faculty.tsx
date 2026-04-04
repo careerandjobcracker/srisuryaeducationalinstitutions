@@ -16,6 +16,10 @@ import idVenuGopal from "@/assets/faculty-id-venu-gopal.jpeg";
 import idNagaMani from "@/assets/faculty-id-naga-mani.jpeg";
 import idVasanthi from "@/assets/faculty-id-vasanthi.jpeg";
 import idMounika from "@/assets/faculty-id-mounika.jpeg";
+import idSatyaNarayana from "@/assets/faculty-id-satya-narayana.jpeg";
+import idSubbaRao from "@/assets/faculty-id-subba-rao.jpeg";
+import idRamesh from "@/assets/faculty-id-ramesh.jpeg";
+import idLeena from "@/assets/faculty-id-leena.jpeg";
 
 const facultyIdSlides = [
   { image: idVasu, title: "K. Vasu", subtitle: "Lecturer in Mathematics", centerImage: true, duration: 8000 },
@@ -28,6 +32,10 @@ const facultyIdSlides = [
   { image: idNagaMani, title: "V. Nagamani", subtitle: "Lecturer in Physics", centerImage: true, duration: 8000 },
   { image: idVasanthi, title: "G. Vasanthi", subtitle: "Lecturer in Mathematics", centerImage: true, duration: 8000 },
   { image: idMounika, title: "M. Mounika", subtitle: "Lecturer in Chemistry", centerImage: true, duration: 8000 },
+  { image: idSatyaNarayana, title: "P. Satya Narayana", subtitle: "Lecturer in Mathematics", centerImage: true, duration: 8000 },
+  { image: idSubbaRao, title: "J. Subba Rao", subtitle: "Lecturer in Sanskrit", centerImage: true, duration: 8000 },
+  { image: idRamesh, title: "P. Ramesh", subtitle: "Lecturer in Chemistry", centerImage: true, duration: 8000 },
+  { image: idLeena, title: "S. Leena", subtitle: "Lecturer in Agriculture", centerImage: true, duration: 8000 },
 ];
 
 const fadeUp = {
