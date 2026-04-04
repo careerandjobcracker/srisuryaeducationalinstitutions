@@ -36,11 +36,11 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
         >
           {slides[current].centerImage ? (
             <div className="w-full h-full flex flex-col items-center justify-center bg-white px-4">
-              <div className="flex-1 flex items-center justify-center pt-4 md:pt-8">
+              <div className="flex-1 flex items-center justify-center pt-4 md:pt-8 w-full">
                 <img
                   src={slides[current].image}
                   alt={slides[current].title}
-                  className="max-h-[40vh] md:max-h-[55vh] object-contain rounded-xl shadow-elevated"
+                  className="max-h-[45vh] md:max-h-[58vh] max-w-[95%] object-contain rounded-xl shadow-elevated"
                 />
               </div>
               <motion.div
