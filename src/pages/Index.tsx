@@ -39,7 +39,7 @@ const campusVideos = [
 ];
 
 const stats = [
-  { icon: GraduationCap, value: "2000+", label: "Students Enrolled" },
+  { icon: GraduationCap, value: "20000+", label: "Students Enrolled" },
   { icon: Users, value: "80+", label: "Expert Faculty" },
   { icon: Trophy, value: "500+", label: "Top Rankers" },
   { icon: BookOpen, value: "20+", label: "Years of Excellence" },
