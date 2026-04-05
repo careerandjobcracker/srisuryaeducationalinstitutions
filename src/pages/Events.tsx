@@ -59,6 +59,13 @@ const Events = () => (
     <EventVideoSlider videos={liveVideo} title="LIVE - Sri Surya Educational Institutions Annual Day Celebrations 2026" />
     <EventVideoSlider videos={eventVideos} title="Sri Surya Educational Institutions  Events" />
 
+    <section className="py-12 bg-background">
+      <div className="container">
+        <SectionHeading label="Photo Gallery" title="Sri Surya Educational Institutions Events" subtitle="Glimpses from our college events and celebrations" />
+        <ImageSlider slides={eventImageSlides} />
+      </div>
+    </section>
+
     <section className="py-20 bg-background">
       <div className="container max-w-4xl">
         <SectionHeading label="What's Happening" title="Events & Activities" subtitle="Stay updated with the latest events, celebrations, and academic activities" />
