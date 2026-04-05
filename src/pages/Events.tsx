@@ -1,9 +1,25 @@
 import Layout from "@/components/Layout";
 import SectionHeading from "@/components/SectionHeading";
 import EventVideoSlider from "@/components/EventVideoSlider";
+import ImageSlider from "@/components/ImageSlider";
 import { motion } from "framer-motion";
 import { Calendar, MapPin, Clock } from "lucide-react";
 import heroStudents from "@/assets/hero-students.jpg";
+import event1 from "@/assets/event-1.jpeg";
+import event2 from "@/assets/event-2.jpeg";
+import event3 from "@/assets/event-3.jpeg";
+import event4 from "@/assets/event-4.jpeg";
+import event5 from "@/assets/event-5.jpeg";
+import event6 from "@/assets/event-6.jpeg";
+
+const eventImageSlides = [
+  { image: event1, title: "Mega Job Mela", subtitle: "Sri Surya Degree College, Narasapuram", duration: 8000 },
+  { image: event2, title: "Award Ceremony", subtitle: "Recognizing Student Achievements", duration: 8000 },
+  { image: event3, title: "Cultural Event Inauguration", subtitle: "Lamp Lighting Ceremony", duration: 8000 },
+  { image: event4, title: "Teachers' Day Celebrations", subtitle: "Honoring Our Educators", duration: 8000 },
+  { image: event5, title: "Classical Dance Performance", subtitle: "Teachers' Day Cultural Program", duration: 8000 },
+  { image: event6, title: "Festive Celebrations", subtitle: "Students & Faculty Together", duration: 8000 },
+];
 
 const liveVideo = [
   { id: "GEym_3dPh40", title: "LIVE - Sri Surya Educational Institutions Annual Day Celebrations 2026" },
