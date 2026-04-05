@@ -91,35 +91,47 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
                 alt={slides[current].title}
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/50 to-transparent" />
-            </>
-          )}
-          {!slides[current].centerImage && (
-            <div className="absolute inset-0 flex items-center">
-              <div className="container">
-                <motion.div
-                  initial={{ y: 30, opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}
-                  transition={{ delay: 0.2, duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
-                  className="max-w-2xl space-y-3 md:space-y-6"
-                >
-                  <h1 className="text-2xl sm:text-4xl md:text-6xl font-display font-bold text-primary-foreground leading-tight">
+              <div className="absolute inset-0 bg-gradient-to-b from-primary/60 via-transparent to-primary/60" />
+              {/* Title at top */}
+              <div className="absolute top-0 left-0 right-0 z-10">
+                <div className="container">
+                  <motion.h1
+                    initial={{ y: -20, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 0.2, duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
+                    className="text-2xl sm:text-4xl md:text-5xl font-display font-bold text-primary-foreground leading-tight pt-6 md:pt-10"
+                  >
                     {slides[current].title}
-                  </h1>
-                  <p className="text-sm sm:text-lg md:text-xl text-primary-foreground/80 leading-relaxed">
+                  </motion.h1>
+                </div>
+              </div>
+              {/* Subtitle bottom-left, Buttons bottom-right */}
+              <div className="absolute bottom-0 left-0 right-0 z-10">
+                <div className="container pb-10 md:pb-14 flex items-end justify-between gap-4">
+                  <motion.p
+                    initial={{ y: 20, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 0.3, duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
+                    className="text-sm sm:text-lg md:text-xl text-primary-foreground/90 leading-relaxed max-w-md"
+                  >
                     {slides[current].subtitle}
-                  </p>
-                  <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                    <a href="/contact" className="px-6 sm:px-8 py-2.5 sm:py-3 bg-gold text-accent-foreground rounded-md font-semibold hover:opacity-90 transition-opacity text-sm sm:text-base text-center">
+                  </motion.p>
+                  <motion.div
+                    initial={{ y: 20, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 0.4, duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
+                    className="flex flex-col sm:flex-row gap-2 sm:gap-3 shrink-0"
+                  >
+                    <a href="/contact" className="px-5 sm:px-7 py-2 sm:py-2.5 bg-gold text-accent-foreground rounded-md font-semibold hover:opacity-90 transition-opacity text-sm sm:text-base text-center">
                       Apply Now
                     </a>
-                    <a href="/about" className="px-6 sm:px-8 py-2.5 sm:py-3 border border-primary-foreground/30 text-primary-foreground rounded-md font-semibold hover:bg-primary-foreground/10 transition-colors text-sm sm:text-base text-center">
+                    <a href="/about" className="px-5 sm:px-7 py-2 sm:py-2.5 border border-primary-foreground/30 text-primary-foreground rounded-md font-semibold hover:bg-primary-foreground/10 transition-colors text-sm sm:text-base text-center">
                       Learn More
                     </a>
-                  </div>
-                </motion.div>
+                  </motion.div>
+                </div>
               </div>
-            </div>
+            </>
           )}
         </motion.div>
       </AnimatePresence>
