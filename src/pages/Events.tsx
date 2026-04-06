@@ -16,7 +16,7 @@ const eventImageSlides = [
   { image: event1, title: "Mega Job Mela", subtitle: "Sri Surya Degree College, Narasapuram", duration: 8000 },
   { image: event2, title: "Award Ceremony", subtitle: "Recognizing Student Achievements", duration: 8000 },
   { image: event3, title: "Cultural Event Inauguration", subtitle: "Lamp Lighting Ceremony", duration: 8000 },
-  { image: event4, title: "Teachers' Day Celebrations", subtitle: "Honoring Our Educators", duration: 8000 },
+  { image: event4, title: "Teachers' Day Celebrations", subtitle: "Honoring Student Performance", duration: 8000 },
   { image: event5, title: "Classical Dance Performance", subtitle: "Teachers' Day Cultural Program", duration: 8000 },
   { image: event6, title: "Festive Celebrations", subtitle: "Leading Woman Doctors in Narasapuram", duration: 8000 },
 ];
