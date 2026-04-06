@@ -87,7 +87,7 @@ const facultyData: FacultyMember[] = [
     experience: "19 Years",
     photo: msdLakshmiNarayana,
     bio: "Mr. KSD. Lakshmi Narayana, our highly experienced Chemistry faculty, brings 19 years of dedicated teaching expertise in JEE and EAPCET coaching.",
-    detailedBio: "Mr. MSD. Lakshmi Narayana is one of the most highly experienced and respected Chemistry faculty members at Sri Surya Junior & Degree College, bringing 19 years of dedicated teaching expertise. Known for his in-depth subject knowledge and result-oriented approach, he has guided countless students toward top ranks in competitive exams like JEE, NEET and EAPCET. His teaching methodology combines conceptual clarity with extensive problem-solving practice, ensuring students develop a strong foundation in Chemistry.",
+    detailedBio: "Mr. KSD. Lakshmi Narayana is one of the most highly experienced and respected Chemistry faculty members at Sri Surya Junior & Degree College, bringing 19 years of dedicated teaching expertise. Known for his in-depth subject knowledge and result-oriented approach, he has guided countless students toward top ranks in competitive exams like JEE, NEET and EAPCET. His teaching methodology combines conceptual clarity with extensive problem-solving practice, ensuring students develop a strong foundation in Chemistry.",
     activities: [
       "Specialized JEE, NEET and EAPCET Chemistry coaching for 19 years",
       "Conducted intensive crash courses before competitive exams",
@@ -111,15 +111,15 @@ const facultyData: FacultyMember[] = [
   },
   // BiPC
   {
-    id: "msd-lakshmi-narayana-bipc",
-    name: "Mr. MSD. Lakshmi Narayana",
+    id: "ksd-lakshmi-narayana-bipc",
+    name: "Mr. KSD. Lakshmi Narayana",
     category: "BiPC",
     subject: "Chemistry",
     qualification: "M.Sc.",
     experience: "19 Years",
     photo: msdLakshmiNarayana,
-    bio: "Mr. MSD. Lakshmi Narayana, our highly experienced Chemistry faculty, brings 19 years of dedicated teaching expertise in JEE and EAPCET coaching.",
-    detailedBio: "Mr. MSD. Lakshmi Narayana is one of the most highly experienced and respected Chemistry faculty members at Sri Surya Junior & Degree College, bringing 19 years of dedicated teaching expertise. Known for his in-depth subject knowledge and result-oriented approach, he has guided countless students toward top ranks in competitive exams like JEE and EAPCET.",
+    bio: "Mr. KSD. Lakshmi Narayana, our highly experienced Chemistry faculty, brings 19 years of dedicated teaching expertise in JEE and EAPCET coaching.",
+    detailedBio: "Mr. KSD. Lakshmi Narayana is one of the most highly experienced and respected Chemistry faculty members at Sri Surya Junior & Degree College, bringing 19 years of dedicated teaching expertise. Known for his in-depth subject knowledge and result-oriented approach, he has guided countless students toward top ranks in competitive exams like JEE and EAPCET.",
     activities: [
       "Specialized JEE and EAPCET Chemistry coaching for 19 years",
       "Conducted intensive crash courses before competitive exams",
