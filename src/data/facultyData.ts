@@ -79,7 +79,7 @@ const facultyData: FacultyMember[] = [
     ],
   },
   {
-    id: "msd-lakshmi-narayana",
+    id: "ksd-lakshmi-narayana",
     name: "Mr. KSD. Lakshmi Narayana",
     category: "MPC",
     subject: "Chemistry",
