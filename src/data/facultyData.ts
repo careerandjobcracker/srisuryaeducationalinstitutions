@@ -111,8 +111,8 @@ const facultyData: FacultyMember[] = [
   },
   // BiPC
   {
-    id: "msd-lakshmi-narayana-bipc",
-    name: "Mr. MSD. Lakshmi Narayana",
+    id: "ksd-lakshmi-narayana-bipc",
+    name: "Mr. KSD. Lakshmi Narayana",
     category: "BiPC",
     subject: "Chemistry",
     qualification: "M.Sc.",
