@@ -18,7 +18,7 @@ const eventImageSlides = [
   { image: event3, title: "Cultural Event Inauguration", subtitle: "Lamp Lighting Ceremony", duration: 8000 },
   { image: event4, title: "Teachers' Day Celebrations", subtitle: "Honoring Our Educators", duration: 8000 },
   { image: event5, title: "Classical Dance Performance", subtitle: "Teachers' Day Cultural Program", duration: 8000 },
-  { image: event6, title: "Festive Celebrations", subtitle: "Students & Faculty Together", duration: 8000 },
+  { image: event6, title: "Festive Celebrations", subtitle: "Leading Woman Doctors in Narasapuram", duration: 8000 },
 ];
 
 const liveVideo = [
