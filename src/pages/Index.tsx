@@ -22,11 +22,17 @@ import pomplate4 from "@/assets/pomplate-4.jpeg";
 import pomplate5 from "@/assets/pomplate-5.jpeg";
 import talentTest1 from "@/assets/talent-test-1.jpeg";
 import talentTest2 from "@/assets/talent-test-2.jpeg";
+import mlaAppreciation1 from "@/assets/mla-appreciation-1.jpeg";
+import mlaAppreciation2 from "@/assets/mla-appreciation-2.jpeg";
+import mlaAppreciation3 from "@/assets/mla-appreciation-3.jpeg";
 
 const heroSlides = [
   { image: stateRankMPC, title: "State Rank & Town First - MPC", subtitle: "Dwara Amruthamani - 466/470", centerImage: true, duration: 8000 },
   { image: stateRankBiPC, title: "State Rank & Town First - BiPC", subtitle: "Kodi Roshini - 441/455", centerImage: true, duration: 8000 },
   { image: stateRankCEC, title: "State Rank & Town First - CEC", subtitle: "Sankarapu Sandhya - 461/500", centerImage: true, duration: 8000 },
+  { image: mlaAppreciation1, title: "MLA Appreciation - Student Felicitation", subtitle: "Sri Surya Top Rankers Appreciated by MLA", centerImage: true, duration: 8000 },
+  { image: mlaAppreciation2, title: "MLA Appreciation - Student Achievement", subtitle: "Recognizing Excellence at Sri Surya", centerImage: true, duration: 8000 },
+  { image: mlaAppreciation3, title: "MLA Appreciation - Address", subtitle: "MLA Addressing Sri Surya Achievers", centerImage: true, duration: 8000 },
   { image: logoNew, title: "Sri Surya Junior & Degree College", subtitle: "To Search For Bright - Narasapur", centerImage: true },
   { image: correspondentSir, title: "Gantsala Brahmajee", subtitle: "- Secretary and Correspondent", centerImage: true },
   { image: heroCampus, title: "Building Future Leaders", subtitle: "Sri Surya Educational Institutions: Empowering students in Narasapuram with a legacy of top ranks and holistic development." },
