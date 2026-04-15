@@ -116,6 +116,27 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Featured Video 2 */}
+      <section className="bg-background py-12">
+        <div className="container max-w-4xl">
+          <div className="text-center mb-6">
+            <p className="text-gold font-medium text-sm uppercase tracking-wider mb-2">Featured</p>
+            <h2 className="text-2xl md:text-3xl font-display font-bold text-foreground">
+              State 4th Ranker - Thankfulness to Sri Surya Junior College and Chairman
+            </h2>
+          </div>
+          <div className="rounded-xl overflow-hidden shadow-elevated aspect-video">
+            <iframe
+              src="https://www.youtube.com/embed/VD0m4ba1nqc"
+              title="State 4th Ranker - Thankfulness to Sri Surya Junior College and Chairman"
+              className="w-full h-full"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Video Slider */}
       <VideoSlider videos={campusVideos} />
 
