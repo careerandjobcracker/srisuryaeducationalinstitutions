@@ -95,6 +95,27 @@ const Index = () => {
       {/* Hero Slider */}
       <ImageSlider slides={heroSlides} />
 
+      {/* Featured Video */}
+      <section className="bg-secondary py-12">
+        <div className="container max-w-4xl">
+          <div className="text-center mb-6">
+            <p className="text-gold font-medium text-sm uppercase tracking-wider mb-2">Featured</p>
+            <h2 className="text-2xl md:text-3xl font-display font-bold text-foreground">
+              Sri Surya With State Ranks - Addressing By MLA Sir
+            </h2>
+          </div>
+          <div className="rounded-xl overflow-hidden shadow-elevated aspect-video">
+            <iframe
+              src="https://www.youtube.com/embed/_cYQNrITrmY"
+              title="Sri Surya With State Ranks - Addressing By MLA Sir"
+              className="w-full h-full"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Video Slider */}
       <VideoSlider videos={campusVideos} />
 
