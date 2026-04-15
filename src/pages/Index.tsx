@@ -17,6 +17,8 @@ import pomplate2 from "@/assets/pomplate-2.jpeg";
 import pomplate3 from "@/assets/pomplate-3.jpeg";
 import pomplate4 from "@/assets/pomplate-4.jpeg";
 import pomplate5 from "@/assets/pomplate-5.jpeg";
+import talentTest1 from "@/assets/talent-test-1.jpeg";
+import talentTest2 from "@/assets/talent-test-2.jpeg";
 
 const heroSlides = [
   { image: logoNew, title: "Sri Surya Junior & Degree College", subtitle: "To Search For Bright - Narasapur", centerImage: true },
