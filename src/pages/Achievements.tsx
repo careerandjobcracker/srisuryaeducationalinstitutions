@@ -37,6 +37,16 @@ const Achievements = () => (
       </div>
     </div>
 
+    {/* State Ranks Slider */}
+    <section className="py-12 bg-background">
+      <div className="container">
+        <SectionHeading label="Top Performers" title="Sri Surya Students - State and District Ranks #2026" />
+        <div className="rounded-2xl overflow-hidden shadow-elevated">
+          <ImageSlider slides={rankSlides} />
+        </div>
+      </div>
+    </section>
+
     {/* Stats */}
     <section className="py-16 bg-gold">
       <div className="container">
