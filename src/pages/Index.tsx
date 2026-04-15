@@ -32,6 +32,8 @@ const heroSlides = [
   { image: pomplate3, title: "Pratibha Award Winner", subtitle: "Andhra Pradesh State Government Recognition", centerImage: true, duration: 8000 },
   { image: pomplate4, title: "Sri Surya E.M. High School Toppers", subtitle: "SSC Results - Quality Education Leaders", centerImage: true, duration: 8000 },
   { image: pomplate5, title: "Sri Surya Degree College Rankers", subtitle: "Felicitation of Top Performers", centerImage: true, duration: 8000 },
+  { image: talentTest1, title: "Merit Scholarship Test", subtitle: "Sri Surya E.M. High School - April 2026", centerImage: true, duration: 8000 },
+  { image: talentTest2, title: "Merit Scholarship Test", subtitle: "Sri Surya IIT JEE/NEET Academy", centerImage: true, duration: 8000 },
 ];
 
 const campusVideos = [
