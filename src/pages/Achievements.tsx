@@ -1,8 +1,18 @@
 import Layout from "@/components/Layout";
 import SectionHeading from "@/components/SectionHeading";
+import ImageSlider from "@/components/ImageSlider";
 import { motion } from "framer-motion";
 import { Trophy, Award, Star, TrendingUp } from "lucide-react";
 import heroStudents from "@/assets/hero-students.jpg";
+import stateRankCec2 from "@/assets/state-rank-cec-2.jpeg";
+import stateRankBipc2 from "@/assets/state-rank-bipc-2.jpeg";
+import stateRankMpc2 from "@/assets/state-rank-mpc-2.jpeg";
+
+const rankSlides = [
+  { image: stateRankMpc2, title: "Dwara Amruthamani - MPC State Rank & Town First - 466/470", centerImage: true, duration: 6000 },
+  { image: stateRankBipc2, title: "Kodi Roshini - BiPC State Rank & Town First - 441/455", centerImage: true, duration: 6000 },
+  { image: stateRankCec2, title: "Sankarapu Sandhya - CEC State Rank & Town First - 461/500", centerImage: true, duration: 6000 },
+];
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -26,6 +36,16 @@ const Achievements = () => (
         <h1 className="text-4xl md:text-5xl font-display font-bold text-primary-foreground">Achievements</h1>
       </div>
     </div>
+
+    {/* State Ranks Slider */}
+    <section className="py-12 bg-background">
+      <div className="container">
+        <SectionHeading label="Top Performers" title="Sri Surya Students - State and District Ranks #2026" />
+        <div className="rounded-2xl overflow-hidden shadow-elevated">
+          <ImageSlider slides={rankSlides} />
+        </div>
+      </div>
+    </section>
 
     {/* Stats */}
     <section className="py-16 bg-gold">
