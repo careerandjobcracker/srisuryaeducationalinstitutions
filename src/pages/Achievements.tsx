@@ -7,11 +7,17 @@ import heroStudents from "@/assets/hero-students.jpg";
 import stateRankCec2 from "@/assets/state-rank-cec-2.jpeg";
 import stateRankBipc2 from "@/assets/state-rank-bipc-2.jpeg";
 import stateRankMpc2 from "@/assets/state-rank-mpc-2.jpeg";
+import mlaAppreciation1 from "@/assets/mla-appreciation-1-2.jpeg";
+import mlaAppreciation2 from "@/assets/mla-appreciation-2-2.jpeg";
+import mlaAppreciation3 from "@/assets/mla-appreciation-3-2.jpeg";
 
 const rankSlides = [
   { image: stateRankMpc2, title: "Dwara Amruthamani - MPC State Rank & Town First - 466/470", centerImage: true, duration: 6000 },
   { image: stateRankBipc2, title: "Kodi Roshini - BiPC State Rank & Town First - 441/455", centerImage: true, duration: 6000 },
   { image: stateRankCec2, title: "Sankarapu Sandhya - CEC State Rank & Town First - 461/500", centerImage: true, duration: 6000 },
+  { image: mlaAppreciation1, title: "MLA Appreciation - State Ranker Felicitation", centerImage: true, duration: 6000 },
+  { image: mlaAppreciation2, title: "MLA Appreciation - State Ranker Felicitation", centerImage: true, duration: 6000 },
+  { image: mlaAppreciation3, title: "MLA Appreciation - Addressing the Gathering", centerImage: true, duration: 6000 },
 ];
 
 const fadeUp = {
