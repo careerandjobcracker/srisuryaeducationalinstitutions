@@ -25,11 +25,15 @@ import talentTest2 from "@/assets/talent-test-2.jpeg";
 import mlaAppreciation1 from "@/assets/mla-appreciation-1.jpeg";
 import mlaAppreciation2 from "@/assets/mla-appreciation-2.jpeg";
 import mlaAppreciation3 from "@/assets/mla-appreciation-3.jpeg";
+import pomplateSeniorJunior from "@/assets/pomplate-senior-junior-results.jpeg";
+import pomplateState4th from "@/assets/pomplate-state-4th-town-1st.jpeg";
 
 const heroSlides = [
   { image: stateRankMPC, title: "State Rank & Town First - MPC", subtitle: "Dwara Amruthamani - 466/470", centerImage: true, duration: 6000 },
   { image: stateRankBiPC, title: "State Rank & Town First - BiPC", subtitle: "Kodi Roshini - 441/455", centerImage: true, duration: 6000 },
   { image: stateRankCEC, title: "State Rank & Town First - CEC", subtitle: "Sankarapu Sandhya - 461/500", centerImage: true, duration: 6000 },
+  { image: pomplateSeniorJunior, title: "Senior & Junior Inter Results", subtitle: "Sri Surya - Top Scores in MPC, MEC & BiPC", centerImage: true, duration: 6000 },
+  { image: pomplateState4th, title: "State 4th Rank & Town 1st", subtitle: "Dwara Amruthamani - 466/470 - IIT JEE/NEET Academy", centerImage: true, duration: 6000 },
   { image: mlaAppreciation1, title: "MLA Appreciation - Student Felicitation", subtitle: "Sri Surya Top Rankers Appreciated by MLA", centerImage: true, duration: 6000 },
   { image: mlaAppreciation2, title: "MLA Appreciation - Student Achievement", subtitle: "Recognizing Excellence at Sri Surya", centerImage: true, duration: 6000 },
   { image: mlaAppreciation3, title: "MLA Appreciation - Address", subtitle: "MLA Addressing Sri Surya Achievers", centerImage: true, duration: 6000 },
