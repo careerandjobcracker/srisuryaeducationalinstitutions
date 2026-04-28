@@ -55,18 +55,18 @@ const Footer = () => {
             <div className="space-y-3 text-sm text-primary-foreground/70">
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5 text-gold shrink-0" />
-                <p className="break-words">5-1-57, 1st Ward, Sriharipeta, Near APSRTC Bus Complex, Narsapuram - 534275, W.G.Dt, AP</p>
+                <AddressMaps />
               </div>
-              <div className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-gold shrink-0" />
-                <div>
-                  <p>+91 8297881777</p>
+              <div className="flex items-start gap-2">
+                <Phone className="w-4 h-4 mt-0.5 text-gold shrink-0" />
+                <div className="space-y-1">
+                  <PhoneWhatsApp />
                   <p>08814-278364</p>
                 </div>
               </div>
-              <div className="flex items-center gap-2">
-                <Mail className="w-4 h-4 text-gold shrink-0" />
-                <p className="break-all">srisuryacollegensp@gmail.com</p>
+              <div className="flex items-start gap-2">
+                <Mail className="w-4 h-4 mt-0.5 text-gold shrink-0" />
+                <EmailProviders />
               </div>
               <div className="flex items-center gap-2">
                 <Clock className="w-4 h-4 text-gold shrink-0" />
