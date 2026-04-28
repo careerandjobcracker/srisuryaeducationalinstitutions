@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { SocialLinks } from "./Header";
+import { AddressMaps, EmailProviders, PhoneWhatsApp } from "./ContactLinks";
 import logo from "@/assets/logo.png";
 
 const Footer = () => {
