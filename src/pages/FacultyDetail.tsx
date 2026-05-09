@@ -96,6 +96,18 @@ const FacultyDetail = () => {
             </div>
           </motion.div>
 
+          {/* Faculty Image Slider */}
+          {facultySlides[faculty.id] && facultySlides[faculty.id].length > 0 && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              className="mt-12 rounded-2xl overflow-hidden shadow-elevated"
+            >
+              <ImageSlider slides={facultySlides[faculty.id]} />
+            </motion.div>
+          )}
+
           {/* Activities */}
           {faculty.activities && faculty.activities.length > 0 && (
             <motion.div
