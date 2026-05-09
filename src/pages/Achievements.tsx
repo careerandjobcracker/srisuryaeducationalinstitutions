@@ -12,8 +12,10 @@ import mlaAppreciation2 from "@/assets/mla-appreciation-2-2.jpeg";
 import mlaAppreciation3 from "@/assets/mla-appreciation-3-2.jpeg";
 import pomplateSeniorJunior2 from "@/assets/pomplate-senior-junior-results-2.jpeg";
 import pomplateState4th2 from "@/assets/pomplate-state-4th-town-1st-2.jpeg";
+import ssc2026TopRank from "@/assets/ssc-2026-top-rank.jpeg";
 
 const rankSlides = [
+  { image: ssc2026TopRank, title: "2026 SSC Results - Sri Surya Top Rankers - Kollati Tejasri 575/600", centerImage: true, duration: 6000 },
   { image: stateRankMpc2, title: "Dwara Amruthamani - MPC State Rank & Town First - 466/470", centerImage: true, duration: 6000 },
   { image: stateRankBipc2, title: "Kodi Roshini - BiPC State Rank & Town First - 441/455", centerImage: true, duration: 6000 },
   { image: stateRankCec2, title: "Sankarapu Sandhya - CEC State Rank & Town First - 461/500", centerImage: true, duration: 6000 },
