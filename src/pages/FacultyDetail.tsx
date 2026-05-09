@@ -4,6 +4,19 @@ import { motion } from "framer-motion";
 import { ArrowLeft, Award, BookOpen, GraduationCap, Briefcase } from "lucide-react";
 import facultyData from "@/data/facultyData";
 import heroCampus from "@/assets/hero-campus.jpg";
+import ImageSlider from "@/components/ImageSlider";
+import ramachandraReddyAward from "@/assets/ramachandra-reddy-best-teacher-award.jpeg";
+
+const facultySlides: Record<string, { image: string; title: string; centerImage?: boolean; duration?: number }[]> = {
+  "boyi-ramachandra-reddy": [
+    {
+      image: ramachandraReddyAward,
+      title: "Best Teacher Award - Sri B. Ramachandra Reddy",
+      centerImage: true,
+      duration: 6000,
+    },
+  ],
+};
 
 const FacultyDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -82,6 +95,18 @@ const FacultyDetail = () => {
               </p>
             </div>
           </motion.div>
+
+          {/* Faculty Image Slider */}
+          {facultySlides[faculty.id] && facultySlides[faculty.id].length > 0 && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              className="mt-12 rounded-2xl overflow-hidden shadow-elevated"
+            >
+              <ImageSlider slides={facultySlides[faculty.id]} />
+            </motion.div>
+          )}
 
           {/* Activities */}
           {faculty.activities && faculty.activities.length > 0 && (
