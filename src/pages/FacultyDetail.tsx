@@ -4,6 +4,19 @@ import { motion } from "framer-motion";
 import { ArrowLeft, Award, BookOpen, GraduationCap, Briefcase } from "lucide-react";
 import facultyData from "@/data/facultyData";
 import heroCampus from "@/assets/hero-campus.jpg";
+import ImageSlider from "@/components/ImageSlider";
+import ramachandraReddyAward from "@/assets/ramachandra-reddy-best-teacher-award.jpeg";
+
+const facultySlides: Record<string, { image: string; title: string; centerImage?: boolean; duration?: number }[]> = {
+  "boyi-ramachandra-reddy": [
+    {
+      image: ramachandraReddyAward,
+      title: "Best Teacher Award - Sri B. Ramachandra Reddy",
+      centerImage: true,
+      duration: 6000,
+    },
+  ],
+};
 
 const FacultyDetail = () => {
   const { id } = useParams<{ id: string }>();
