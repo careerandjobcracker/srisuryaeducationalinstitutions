@@ -7,11 +7,12 @@ import heroCampus from "@/assets/hero-campus.jpg";
 import ImageSlider from "@/components/ImageSlider";
 import ramachandraReddyAward from "@/assets/ramachandra-reddy-best-teacher-award.jpeg";
 
-const facultySlides: Record<string, { image: string; title: string; centerImage?: boolean; duration?: number }[]> = {
+const facultySlides: Record<string, { image: string; title: string; subtitle?: string; centerImage?: boolean; duration?: number }[]> = {
   "boyi-ramachandra-reddy": [
     {
       image: ramachandraReddyAward,
-      title: "Best Teacher Award - Sri B. Ramachandra Reddy",
+      title: "Best Teacher Award",
+      subtitle: "Sri B. Ramachandra Reddy",
       centerImage: true,
       duration: 6000,
     },
