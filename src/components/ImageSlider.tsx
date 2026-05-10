@@ -53,7 +53,7 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
                   {slides[current].title}
                 </h1>
                 {slides[current].subtitle && (
-                  <p className="text-xs md:text-lg text-muted-foreground">
+                  <p className="text-lg md:text-3xl font-display font-bold text-primary leading-tight">
                     {slides[current].subtitle}
                   </p>
                 )}
