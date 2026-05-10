@@ -29,6 +29,7 @@ import pomplateSeniorJunior from "@/assets/pomplate-senior-junior-results.jpeg";
 import pomplateState4th from "@/assets/pomplate-state-4th-town-1st.jpeg";
 import ssc2026TopRank from "@/assets/ssc-2026-top-rank.jpeg";
 import ssc2026TopRanksList from "@/assets/ssc-2026-top-ranks-list.jpeg";
+import eapcet2025Results from "@/assets/eapcet-2025-results.jpeg";
 
 const heroSlides = [
   { image: ssc2026TopRank, title: "2026 SSC Results - Sri Surya Top Rankers", subtitle: "Kollati Tejasri - 575/600 & Many More Achievers", centerImage: true, duration: 6000 },
@@ -54,6 +55,7 @@ const heroSlides = [
   { image: pomplate5, title: "Sri Surya Degree College Rankers", subtitle: "Felicitation of Top Performers", centerImage: true, duration: 6000 },
   { image: talentTest1, title: "Merit Scholarship Test", subtitle: "Sri Surya E.M. High School - April 2026", centerImage: true, duration: 6000 },
   { image: talentTest2, title: "Merit Scholarship Test", subtitle: "Sri Surya IIT JEE/NEET Academy", centerImage: true, duration: 6000 },
+  { image: eapcet2025Results, title: "2025 EAPCET Sensational Results", subtitle: "Sri Surya Junior College - Narasapuram Top Rankers", centerImage: true, duration: 6000 },
 ];
 
 const campusVideos = [
