@@ -28,9 +28,11 @@ import mlaAppreciation3 from "@/assets/mla-appreciation-3.jpeg";
 import pomplateSeniorJunior from "@/assets/pomplate-senior-junior-results.jpeg";
 import pomplateState4th from "@/assets/pomplate-state-4th-town-1st.jpeg";
 import ssc2026TopRank from "@/assets/ssc-2026-top-rank.jpeg";
+import ssc2026TopRanksList from "@/assets/ssc-2026-top-ranks-list.jpeg";
 
 const heroSlides = [
   { image: ssc2026TopRank, title: "2026 SSC Results - Sri Surya Top Rankers", subtitle: "Kollati Tejasri - 575/600 & Many More Achievers", centerImage: true, duration: 6000 },
+  { image: ssc2026TopRanksList, title: "2026 SSC Top Ranks List", subtitle: "Sri Surya - Corporate-Level Results", centerImage: true, duration: 6000 },
   { image: stateRankMPC, title: "State Rank & Town First - MPC", subtitle: "Dwara Amruthamani - 466/470", centerImage: true, duration: 6000 },
   { image: stateRankBiPC, title: "State Rank & Town First - BiPC", subtitle: "Kodi Roshini - 441/455", centerImage: true, duration: 6000 },
   { image: stateRankCEC, title: "State Rank & Town First - CEC", subtitle: "Sankarapu Sandhya - 461/500", centerImage: true, duration: 6000 },
