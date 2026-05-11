@@ -81,7 +81,7 @@
     overflow-wrap: anywhere;
   }
 
-  img, video, iframe {
+  img {
     max-width: 100%;
     height: auto;
   }
