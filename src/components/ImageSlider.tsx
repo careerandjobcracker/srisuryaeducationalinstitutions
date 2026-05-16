@@ -171,7 +171,7 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
             key={i}
             onClick={() => setCurrent(i)}
             className={`w-2.5 h-2.5 md:w-3 md:h-3 rounded-full transition-all duration-300 ${
-              i === current ? "bg-gold w-6 md:w-8" : "bg-muted-foreground/40"
+              i === current ? "bg-gold w-6 md:w-8" : "bg-primary/50"
             }`}
             aria-label={`Slide ${i + 1}`}
           />
