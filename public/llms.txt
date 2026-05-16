@@ -1,0 +1,15 @@
+# Sri Surya Educational Institutions
+
+> Premier co-educational institution in Narasapuram, West Godavari, Andhra Pradesh offering Junior College, Degree College, and dedicated coaching for IIT-JEE, NEET, EAMCET and Board exams since 2005.
+
+## Pages
+
+- [Home](/): Overview of programs, achievements, top rankers and campus highlights.
+- [About](/about): History, leadership and philosophy of Sri Surya Educational Institutions.
+- [Vision](/vision): Mission, vision, values and guiding principles.
+- [Academics](/academics): Programs offered — MPC, BiPC, CEC, MEC, HEC, B.Com Honours, B.Sc Honours, IIT Foundation, NEET and JEE coaching.
+- [Faculty](/faculty): Profiles of our 80+ expert faculty members.
+- [Achievements](/achievements): State ranks, top scorers and academic milestones.
+- [Events](/events): Campus events, talent tests and felicitation ceremonies.
+- [Community](/community): Forum and community engagement.
+- [Contact](/contact): Address, phone numbers and admission inquiries.
