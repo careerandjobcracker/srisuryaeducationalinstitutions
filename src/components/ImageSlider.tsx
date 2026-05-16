@@ -40,6 +40,10 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
                 <img
                   src={slides[current].image}
                   alt={slides[current].title}
+                  width={1200}
+                  height={800}
+                  fetchPriority={current === 0 ? "high" : "auto"}
+                  decoding="async"
                   className="max-h-[45vh] md:max-h-[58vh] max-w-[95%] object-contain rounded-xl shadow-elevated"
                 />
               </div>
