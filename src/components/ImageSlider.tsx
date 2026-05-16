@@ -40,6 +40,10 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
                 <img
                   src={slides[current].image}
                   alt={slides[current].title}
+                  width={1200}
+                  height={800}
+                  fetchPriority={current === 0 ? "high" : "auto"}
+                  decoding="async"
                   className="max-h-[45vh] md:max-h-[58vh] max-w-[95%] object-contain rounded-xl shadow-elevated"
                 />
               </div>
@@ -80,6 +84,10 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
                 <img
                   src={slides[current].image}
                   alt={slides[current].title}
+                  width={1600}
+                  height={900}
+                  fetchPriority={current === 0 ? "high" : "auto"}
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -89,6 +97,10 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
               <img
                 src={slides[current].image}
                 alt={slides[current].title}
+                width={1600}
+                height={900}
+                fetchPriority={current === 0 ? "high" : "auto"}
+                decoding="async"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-b from-primary/60 via-transparent to-primary/60" />
@@ -159,7 +171,7 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
             key={i}
             onClick={() => setCurrent(i)}
             className={`w-2.5 h-2.5 md:w-3 md:h-3 rounded-full transition-all duration-300 ${
-              i === current ? "bg-gold w-6 md:w-8" : "bg-muted-foreground/40"
+              i === current ? "bg-gold w-6 md:w-8" : "bg-primary/50"
             }`}
             aria-label={`Slide ${i + 1}`}
           />
