@@ -47,21 +47,23 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
                   className="max-h-[45vh] md:max-h-[58vh] max-w-[95%] object-contain rounded-xl shadow-elevated"
                 />
               </div>
-              <motion.div
-                initial={{ y: 20, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 0.2, duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
-                className="text-center pb-8 md:pb-12 pt-3 md:pt-4 space-y-1 md:space-y-2"
-              >
-                <h1 className="text-xl md:text-4xl font-display font-bold text-primary leading-tight">
-                  {slides[current].title}
-                </h1>
-                {slides[current].subtitle && (
-                  <p className="text-lg md:text-3xl font-display font-bold text-primary leading-tight">
-                    {slides[current].subtitle}
-                  </p>
-                )}
-              </motion.div>
+              {slides[current].title && (
+                <motion.div
+                  initial={{ y: 20, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{ delay: 0.2, duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
+                  className="text-center pb-8 md:pb-12 pt-3 md:pt-4 space-y-1 md:space-y-2"
+                >
+                  <h1 className="text-xl md:text-4xl font-display font-bold text-primary leading-tight">
+                    {slides[current].title}
+                  </h1>
+                  {slides[current].subtitle && (
+                    <p className="text-lg md:text-3xl font-display font-bold text-primary leading-tight">
+                      {slides[current].subtitle}
+                    </p>
+                  )}
+                </motion.div>
+              )}
             </div>
           ) : slides[current].titleOnTop ? (
             <div className="w-full h-full flex flex-col bg-white">

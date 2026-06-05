@@ -6,36 +6,24 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import heroCampus from "@/assets/hero-campus.jpg";
 import facultyData, { categories } from "@/data/facultyData";
-import idVasu from "@/assets/faculty-id-vasu.jpeg";
-import idKesava from "@/assets/faculty-id-kesava.jpeg";
-import idPrakash from "@/assets/faculty-id-prakash.jpeg";
-import idLakshmiNarayana from "@/assets/faculty-id-lakshmi-narayana.jpeg";
-import idSivaji from "@/assets/faculty-id-sivaji.jpeg";
-import idRamachandraReddy from "@/assets/faculty-id-ramachandra-reddy.jpeg";
-import idVenuGopal from "@/assets/faculty-id-venu-gopal.jpeg";
-import idNagaMani from "@/assets/faculty-id-naga-mani.jpeg";
-import idVasanthi from "@/assets/faculty-id-vasanthi.jpeg";
-import idMounika from "@/assets/faculty-id-mounika.jpeg";
-import idSatyaNarayana from "@/assets/faculty-id-satya-narayana.jpeg";
-import idSubbaRao from "@/assets/faculty-id-subba-rao.jpeg";
-import idRamesh from "@/assets/faculty-id-ramesh.jpeg";
-import idLeena from "@/assets/faculty-id-leena.jpeg";
+import idVasu from "@/assets/slider-K._Vasu.jpg.asset.json";
+import idKesava from "@/assets/slider-Appana._Kesava.jpg.asset.json";
+import idLakshmiNarayana from "@/assets/slider-KSD._Lakshmi_Narayana.jpg.asset.json";
+import idSivaji from "@/assets/slider-A._Shivaji.jpg.asset.json";
+import idRamachandraReddy from "@/assets/slider-B._Ramachandra_Reddy.jpg.asset.json";
+import idVasanthi from "@/assets/slider-G._Vasanthi.jpg.asset.json";
+import idMounika from "@/assets/slider-M._Mounika.jpg.asset.json";
+import idSubbaRao from "@/assets/slider-Jasti_Subbarao.jpg.asset.json";
 
 const facultyIdSlides = [
-  { image: idVasu, title: "K. Vasu", subtitle: "Lecturer in Mathematics", centerImage: true, duration: 8000 },
-  { image: idKesava, title: "A. Kesava", subtitle: "Lecturer in Computer Science", centerImage: true, duration: 8000 },
-  { image: idPrakash, title: "N. Prakash", subtitle: "Lecturer in Mathematics", centerImage: true, duration: 8000 },
-  { image: idLakshmiNarayana, title: "K.S.D. Lakshminarayana", subtitle: "Lecturer in Chemistry", centerImage: true, duration: 8000 },
-  { image: idSivaji, title: "A. Sivaji", subtitle: "Lecturer in Biology", centerImage: true, duration: 8000 },
-  { image: idRamachandraReddy, title: "B. Ramachandra Reddy", subtitle: "Lecturer in Mathematics", centerImage: true, duration: 8000 },
-  { image: idVenuGopal, title: "S. Venu Gopal", subtitle: "Lecturer in Mathematics", centerImage: true, duration: 8000 },
-  { image: idNagaMani, title: "V. Nagamani", subtitle: "Lecturer in Physics", centerImage: true, duration: 8000 },
-  { image: idVasanthi, title: "G. Vasanthi", subtitle: "Lecturer in Mathematics", centerImage: true, duration: 8000 },
-  { image: idMounika, title: "M. Mounika", subtitle: "Lecturer in Chemistry", centerImage: true, duration: 8000 },
-  { image: idSatyaNarayana, title: "P. Satya Narayana", subtitle: "Lecturer in Mathematics", centerImage: true, duration: 8000 },
-  { image: idSubbaRao, title: "J. Subba Rao", subtitle: "Lecturer in Sanskrit", centerImage: true, duration: 8000 },
-  { image: idRamesh, title: "P. Ramesh", subtitle: "Lecturer in Chemistry", centerImage: true, duration: 8000 },
-  { image: idLeena, title: "S. Leena", subtitle: "Lecturer in Agriculture", centerImage: true, duration: 8000 },
+  { image: idVasu.url, title: "", centerImage: true, duration: 8000 },
+  { image: idKesava.url, title: "", centerImage: true, duration: 8000 },
+  { image: idLakshmiNarayana.url, title: "", centerImage: true, duration: 8000 },
+  { image: idSivaji.url, title: "", centerImage: true, duration: 8000 },
+  { image: idRamachandraReddy.url, title: "", centerImage: true, duration: 8000 },
+  { image: idVasanthi.url, title: "", centerImage: true, duration: 8000 },
+  { image: idMounika.url, title: "", centerImage: true, duration: 8000 },
+  { image: idSubbaRao.url, title: "", centerImage: true, duration: 8000 },
 ];
 
 const fadeUp = {
