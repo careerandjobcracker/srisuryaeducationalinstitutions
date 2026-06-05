@@ -14,6 +14,12 @@ import idRamachandraReddy from "@/assets/slider-B._Ramachandra_Reddy.jpg.asset.j
 import idVasanthi from "@/assets/slider-G._Vasanthi.jpg.asset.json";
 import idMounika from "@/assets/slider-M._Mounika.jpg.asset.json";
 import idSubbaRao from "@/assets/slider-Jasti_Subbarao.jpg.asset.json";
+import idPrakash from "@/assets/slider-N._Prakash.jpg.asset.json";
+import idRamesh from "@/assets/slider-P._Ramesh.jpg.asset.json";
+import idSatyaNarayana from "@/assets/slider-P._Satya_Narayana.jpg.asset.json";
+import idLeena from "@/assets/slider-S._Leena.jpg.asset.json";
+import idVenuGopal from "@/assets/slider-S._Venu_Gopal.jpg.asset.json";
+import idNagaMani from "@/assets/slider-V._Naga_Mani.jpg.asset.json";
 
 const facultyIdSlides = [
   { image: idVasu.url, title: "", centerImage: true, duration: 8000 },
@@ -24,6 +30,12 @@ const facultyIdSlides = [
   { image: idVasanthi.url, title: "", centerImage: true, duration: 8000 },
   { image: idMounika.url, title: "", centerImage: true, duration: 8000 },
   { image: idSubbaRao.url, title: "", centerImage: true, duration: 8000 },
+  { image: idPrakash.url, title: "", centerImage: true, duration: 8000 },
+  { image: idRamesh.url, title: "", centerImage: true, duration: 8000 },
+  { image: idSatyaNarayana.url, title: "", centerImage: true, duration: 8000 },
+  { image: idLeena.url, title: "", centerImage: true, duration: 8000 },
+  { image: idVenuGopal.url, title: "", centerImage: true, duration: 8000 },
+  { image: idNagaMani.url, title: "", centerImage: true, duration: 8000 },
 ];
 
 const fadeUp = {
