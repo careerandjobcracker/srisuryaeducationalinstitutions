@@ -24,7 +24,7 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
   }, [next, current, slides]);
 
   return (
-    <div className="relative w-full min-h-[60vh] md:min-h-[70vh] overflow-hidden">
+    <div className="relative w-full min-h-[80vh] md:min-h-[90vh] overflow-hidden">
       <AnimatePresence mode="wait">
         <motion.div
           key={current}
@@ -44,7 +44,7 @@ const ImageSlider = ({ slides }: { slides: Slide[] }) => {
                   height={800}
                   fetchPriority={current === 0 ? "high" : "auto"}
                   decoding="async"
-                  className="max-h-[45vh] md:max-h-[58vh] max-w-[95%] object-contain rounded-xl shadow-elevated"
+                  className="max-h-[70vh] md:max-h-[82vh] max-w-[95%] object-contain rounded-xl shadow-elevated"
                 />
               </div>
               {slides[current].title && (
